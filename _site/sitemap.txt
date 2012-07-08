@@ -1,0 +1,7 @@
+
+http://drelu.github.com/atom.xml
+http://drelu.github.com/index.html
+http://drelu.github.com/pages.html
+http://drelu.github.com/sitemap.txt
+
+http://drelu.github.com/2012/07/08/new-post
