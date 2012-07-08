@@ -1,7 +1,7 @@
 
-http://drelu.github.com/atom.xml
-http://drelu.github.com/index.html
-http://drelu.github.com/pages.html
-http://drelu.github.com/sitemap.txt
+http://drelu.github.com/bigdata//atom.xml
+http://drelu.github.com/bigdata//index.html
+http://drelu.github.com/bigdata//pages.html
+http://drelu.github.com/bigdata//sitemap.txt
 
-http://drelu.github.com/2012/07/08/new-post
+http://drelu.github.com/bigdata//2012/07/08/new-post
