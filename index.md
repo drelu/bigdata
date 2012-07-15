@@ -46,7 +46,7 @@ Werkzeugen und Infrastrukturen für die Verarbeitung von großen Datenmengen.
 
 ## Literatur
 
-1. Peter Mell and Tim Grance. The NIST Definition of Cloud Computing, [http://csrc.nist.gov/groups/SNS/cloud-computing/]()
+1. Peter Mell and Tim Grance. The NIST Definition of Cloud Computing, [http://csrc.nist.gov/groups/SNS/cloud-computing/](http://csrc.nist.gov/groups/SNS/cloud-computing/)
 1. Michael Armbrust, Armando Fox, Rean Griffith, Anthony D. Joseph, Randy H. Katz, Andrew Konwinski, Gunho Lee, David A. Patterson, Ariel Rabkin, Ion Stoica, and Matei Zaharia. Above the clouds: A Berkeley View of Cloud Computing. Technical Report University of Berkley, 2009, [http://www.eecs.berkeley.edu/Pubs/TechRpts/2009/EECS-2009-28.pdf]()
 1. S. Jha, D. Katz, A. Luckow, A. Merzky, K. Stamou, Understanding Scientific Applications for Cloud Environments, submitted to book on Cloud Computing, [http://www.cct.lsu.edu/~sjha/select_publications/cloud_book_chapter.pdf]()
 1. R. Buyya, Chee Shin Yeo, Srikumar Venugopal. Market-Oriented Cloud Computing: Vision, Hype, and Reality for Delivering IT Services as Computing Utilities, HPCC 2008, [http://www.buyya.com/papers/hpcc2008_keynote_cloudcomputing.pdf]()
