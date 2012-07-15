@@ -1,6 +1,6 @@
 ---
 layout: page
-title: FWP Fach im Studiengang Wirtschaftsinformatik
+title: Überblick
 tagline: 
 ---
 {% include JB/setup %}
