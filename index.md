@@ -62,7 +62,7 @@ Werkzeugen und Infrastrukturen für die Verarbeitung von großen Datenmengen.
 1. Windows Azure. [http://www.microsoft.com/windowsazure/][]
 1. Salesforce: Force.com Developer Resources, [http://developer.force.com/][]
 1. Eucalyptus. [http://open.eucalyptus.com/][]
-1. Eucalyptus Walrus. [][http://open.eucalyptus.com/wiki/EucalyptusStorage_v1.4]
+1. Eucalyptus Walrus. [http://open.eucalyptus.com/wiki/EucalyptusStorage_v1.4]][http://open.eucalyptus.com/wiki/EucalyptusStorage_v1.4]
 1. K. Keahey, I. Foster, T. Freeman, and X. Zhang. Virtual Workspaces: Achieving Quality of Service and Quality of Life in the Grid. Scientific Programming, 13(4):265–275, 2005.
 1. OpenNebula - The Open Source Toolkit for Cloud Computing, [http://www.opennebula.org/][]
 1. Cloud Standards Wiki, [http://cloud-standards.org][]
