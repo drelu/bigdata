@@ -34,14 +34,14 @@ Werkzeugen und Infrastrukturen für die Verarbeitung von großen Datenmengen.
 1. Cloud-Technologie: Amazon Web Services (EC2, EBS, S3) (11, 12)
 1. On-Premise Cloud-Technologien: Eucalyptus und OpenStack (16, 17, 18, 19)
 1. Cloud-Technologie: Windows Azure (14)
-1. Cloud-Technologie: Google App Engine (13, 40)
+1. Cloud-Technologie: Google Compute und App Engine (13, 40)
 1. Google Infrastructure: Chubby (51)
 1. Google Infrastructure: Paxos (52)
 1. Cloud Standards: OCCI, SNIA Cloud Data Management, OVF (20, 21, 22, 23)
 1. Data-Intensive Computing mit MapReduce und Hadoop (24, 25, 26, 27, 28)
-1. Cloud Datenbanken und Key-Value Stores: BigTable, HBase, Cassandra, 
-SimpleDB (Datenmodelle, Konsistenzmodelle, Performance, Skalierbarkeit, 
-Technologien) (29, 30, 31, 32, 33)
+1. Cloud Datenbanken und Key-Value Stores: Datenmodelle, Konsistenzmodelle, Performance, Skalierbarkeit, Technologien (29, 30, 31, 32, 33)
+1. Amazon und Big Data: Elastic Map Reduce, Dynamo DB
+1. Google & Big Data: Google App Engine Map Reduce, Big Query, Prediction API
 1. Sicherheit (Risiken, Sicherheitsmaßnahmen, Protokolle (OpenID, OAuth), Technologien (Amazon VPC, Google Secure Data Connector)) (34, 35, 36, 37, 38)
 
 
