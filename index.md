@@ -29,19 +29,20 @@ Werkzeugen und Infrastrukturen für die Verarbeitung von großen Datenmengen.
 ## Themen
 
 1. Einführung: Cloud Computing und seine Anwendungen (1, 2, 3, 4, 39, 53)
-2. Grundlagen: Web- und Service-orientierte Architekturen (HTTP, Service-orientierte Architekturen, Web Services) (5, 6, 7)
-3. Grundlagen: Virtualisierung (KVM, XEN) (8, 9, 10)
-4. Cloud-Technologie: Amazon Web Services (EC2, EBS, S3) (11, 12)
-5. On-Premise Cloud-Technologien: Eucalyptus und OpenStack (16, 17, 18, 19)
-6. Cloud-Technologie: Google App Engine (13, 40)
-7. Cloud-Technologie: Windows Azure (14)
-8. Cloud-Technologie: Salesforce: force.com (15)
-9. Google Infrastructure: Chubby (51)
-10. Google Infrastructure: Paxos (52)
-11. Cloud Standards: OCCI, SNIA Cloud Data Management, OVF (20, 21, 22, 23)
-12. Data-Intensive Computing mit MapReduce (Hadoop) (24, 25, 26, 27, 28)
-13. Cloud Datenbanken (Datenmodelle, Konsistenzmodelle, Performance, Skalierbarkeit, Technologien (BigTable, HBase, Cassandra, SimpleDB)) (29, 30, 31, 32, 33)
-14. Sicherheit (Risiken, Sicherheitsmaßnahmen, Protokolle (OpenID, OAuth), Technologien (Amazon VPC, Google Secure Data Connector)) (34, 35, 36, 37, 38)
+1. Grundlagen: Web- und Service-orientierte Architekturen (HTTP, Service-orientierte Architekturen, Web Services) (5, 6, 7)
+1. Grundlagen: Virtualisierung (KVM, XEN) (8, 9, 10)
+1. Cloud-Technologie: Amazon Web Services (EC2, EBS, S3) (11, 12)
+1. On-Premise Cloud-Technologien: Eucalyptus und OpenStack (16, 17, 18, 19)
+1. Cloud-Technologie: Windows Azure (14)
+1. Cloud-Technologie: Google App Engine (13, 40)
+1. Google Infrastructure: Chubby (51)
+1. Google Infrastructure: Paxos (52)
+1. Cloud Standards: OCCI, SNIA Cloud Data Management, OVF (20, 21, 22, 23)
+1. Data-Intensive Computing mit MapReduce und Hadoop (24, 25, 26, 27, 28)
+1. Cloud Datenbanken und Key-Value Stores: BigTable, HBase, Cassandra, 
+SimpleDB (Datenmodelle, Konsistenzmodelle, Performance, Skalierbarkeit, 
+Technologien) (29, 30, 31, 32, 33)
+1. Sicherheit (Risiken, Sicherheitsmaßnahmen, Protokolle (OpenID, OAuth), Technologien (Amazon VPC, Google Secure Data Connector)) (34, 35, 36, 37, 38)
 
 
 ## Literatur
