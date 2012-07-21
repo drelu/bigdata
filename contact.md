@@ -2,6 +2,7 @@
 layout: page
 title: "Kontakt"
 description: ""
+group: navigation
 ---
 {% include JB/setup %}
 
