@@ -32,7 +32,7 @@ Werkzeugen und Infrastrukturen für die Verarbeitung von großen Datenmengen.
 2. Grundlagen: Web- und Service-orientierte Architekturen (HTTP, Service-orientierte Architekturen, Web Services) (5, 6, 7)
 3. Grundlagen: Virtualisierung (KVM, XEN) (8, 9, 10)
 4. Cloud-Technologie: Amazon Web Services (EC2, EBS, S3) (11, 12)
-5. On-Premise Cloud-Technologien: Eucalyptus, Nimbus und OpenNebula (16, 17, 18, 19)
+5. On-Premise Cloud-Technologien: Eucalyptus und OpenStack (16, 17, 18, 19)
 6. Cloud-Technologie: Google App Engine (13, 40)
 7. Cloud-Technologie: Windows Azure (14)
 8. Cloud-Technologie: Salesforce: force.com (15)
@@ -64,7 +64,7 @@ Werkzeugen und Infrastrukturen für die Verarbeitung von großen Datenmengen.
 1. Eucalyptus. <http://open.eucalyptus.com/>
 1. Eucalyptus Walrus. <http://open.eucalyptus.com/wiki/EucalyptusStorage_v1.4> 
 1. K. Keahey, I. Foster, T. Freeman, and X. Zhang. Virtual Workspaces: Achieving Quality of Service and Quality of Life in the Grid. Scientific Programming, 13(4):265–275, 2005.
-1. OpenNebula - The Open Source Toolkit for Cloud Computing, <http://www.opennebula.org/>
+1. OpenStack, <http://www.openstack.org/>
 1. Cloud Standards Wiki, <http://cloud-standards.org>
 1. Open Cloud Computing Interface, <http://www.occi-wg.org/doku.php>
 1. SNIA, Cloud Data Management Interface, <http://www.snia.org/tech_activities/publicreview/Cloud_Data_Management_Interface_Draft1.0.pdf>
