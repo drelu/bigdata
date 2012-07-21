@@ -5,6 +5,8 @@ description: ""
 ---
 {% include JB/setup %}
 
+![luckow](http://www.gravatar.com/avatar/be9bc72912bcc907eb297d55c6ef4e99.png?s=200)
+
 Sie erreichen mich unter:
 
 Dr. Andre Luckow
