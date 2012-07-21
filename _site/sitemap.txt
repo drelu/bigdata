@@ -3,6 +3,7 @@ http://drelu.github.com/bigdata//atom.xml
 http://drelu.github.com/bigdata//contact.html
 http://drelu.github.com/bigdata//index.html
 http://drelu.github.com/bigdata//pages.sv
+http://drelu.github.com/bigdata//praktikum.html
 http://drelu.github.com/bigdata//sitemap.txt
 
 http://drelu.github.com/bigdata//2012/07/08/new-post

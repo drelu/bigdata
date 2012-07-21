@@ -39,7 +39,7 @@ Werkzeugen und Infrastrukturen für die Verarbeitung von großen Datenmengen.
 1. Google Infrastructure: Paxos (52)
 1. Cloud Standards: OCCI, SNIA Cloud Data Management, OVF (20, 21, 22, 23)
 1. Data-Intensive Computing mit MapReduce und Hadoop (24, 25, 26, 27, 28)
-1. Cloud Datenbanken und Key-Value Stores: Datenmodelle, Konsistenzmodelle, Performance, Skalierbarkeit, Technologien (29, 30, 31, 32, 33)
+1. Verteilte Datenbanken und Key-Value Stores: Datenmodelle, Konsistenzmodelle, Performance, Skalierbarkeit, Technologien (29, 30, 31, 32, 33)
 1. Amazon und Big Data: Elastic Map Reduce, Dynamo DB
 1. Google & Big Data: Google App Engine Map Reduce, Big Query, Prediction API
 1. Sicherheit (Risiken, Sicherheitsmaßnahmen, Protokolle (OpenID, OAuth), Technologien (Amazon VPC, Google Secure Data Connector)) (34, 35, 36, 37, 38)
