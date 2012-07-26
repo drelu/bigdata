@@ -29,6 +29,8 @@ Werkzeugen und Infrastrukturen für die Verarbeitung von großen Datenmengen.
 ## Themen
 
 1. Einführung: Cloud Computing und seine Anwendungen (1, 2, 3, 4, 39, 53)
+1. Daten-intensive Anwendungen
+1. Entwicklung von Datengetriebenen Anwendungen und Produkten (47)
 1. Grundlagen: Web- und Service-orientierte Architekturen (HTTP, Service-orientierte Architekturen, Web Services) (5, 6, 7)
 1. Grundlagen: Virtualisierung (KVM, XEN) (8, 9, 10)
 1. Cloud-Technologie: Amazon Web Services (EC2, EBS, S3) (11, 12)
@@ -43,6 +45,7 @@ Werkzeugen und Infrastrukturen für die Verarbeitung von großen Datenmengen.
 1. Amazon und Big Data: Elastic Map Reduce, Dynamo DB
 1. Google & Big Data: Google App Engine Map Reduce, Big Query, Prediction API
 1. Sicherheit (Risiken, Sicherheitsmaßnahmen, Protokolle (OpenID, OAuth), Technologien (Amazon VPC, Google Secure Data Connector)) (34, 35, 36, 37, 38)
+1. Datenvisualisierungen mit R
 
 
 ## Literatur
@@ -93,3 +96,4 @@ Werkzeugen und Infrastrukturen für die Verarbeitung von großen Datenmengen.
 1. Mike Burrows, The Chubby Lock Service for Loosely-Coupled Distributed Systems, <http://labs.google.com/papers/chubby.html>
 1. Leslie Lamport, The Part-Time Parliament, <http://research.microsoft.com/en-us/um/people/lamport/pubs/lamport-paxos.pdf>
 1. Thorsten Claus, Daniel Kellmereit, Yasmin Narielvala, The Future of Cloud, <http://thefutureofcloud.com/>
+1. DJ Patil, Data Jujitsu, O'Reilly, <http://oreillynet.com/oreilly/data/radarreports/data-jujitsu.csp>, 2012

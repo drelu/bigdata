@@ -31,4 +31,15 @@ Material:
 
 3. Installieren Sie ein Beispiel ihrer Wahl auf GAE!
 
+# Datenanalyse mit R
+
+
 # Hadoop
+
+1. Installieren Sie auf Ihrer lokalen Maschine Hadoop
+
+2. HDFS TestIO
+
+3. Streaming API: Word Count
+
+4. Java Word Count
