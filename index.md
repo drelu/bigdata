@@ -28,28 +28,42 @@ Werkzeugen und Infrastrukturen für die Verarbeitung von großen Datenmengen.
 
 ## Themen
 
-1. Einführung: Cloud Computing und seine Anwendungen (1, 2, 3, 4, 39, 53)
-1. Daten-intensive Anwendungen
-1. Entwicklung von Datengetriebenen Anwendungen und Produkten (47)
-1. Grundlagen: Web- und Service-orientierte Architekturen (HTTP, Service-orientierte Architekturen, Web Services) (5, 6, 7)
-1. Grundlagen: Virtualisierung (KVM, XEN) (8, 9, 10)
-1. Cloud-Technologie: Amazon Web Services (EC2, EBS, S3) (11, 12)
-1. On-Premise Cloud-Technologien: Eucalyptus und OpenStack (16, 17, 18, 19)
-1. Cloud-Technologie: Windows Azure (14)
-1. Cloud-Technologie: Google Compute und App Engine (13, 40)
-1. Google Infrastructure: Chubby (51)
-1. Google Infrastructure: Paxos (52)
-1. Cloud Standards: OCCI, SNIA Cloud Data Management, OVF (20, 21, 22, 23)
-1. Data-Intensive Computing mit MapReduce und Hadoop (24, 25, 26, 27, 28)
-1. Verteilte Datenbanken und Key-Value Stores: Datenmodelle, Konsistenzmodelle, Performance, Skalierbarkeit, Technologien (29, 30, 31, 32, 33)
+1. Einführung: Big Data und seine Anwendungen 
+1. Daten-intensive Anwendungen in der Wissenschaft
+1. Entwicklung von Datengetriebenen Anwendungen und Produkten 
+1. Grundlagen: Web- und Service-orientierte Architekturen (HTTP, Service-orientierte Architekturen, Web Services) 
+1. Grundlagen: Virtualisierung (KVM, XEN) 
+1. Cloud-Technologie: Amazon Web Services (EC2, EBS, S3) 
+1. On-Premise Cloud-Technologien: Eucalyptus und OpenStack 
+1. Cloud-Technologie: Windows Azure 
+1. Cloud-Technologie: Google Compute und App Engine 
+1. Fehlertoleranz in Verteilten Systemen: Quorum Protokolle, Apache Zookeeper
+1. Cloud Standards: OCCI, SNIA Cloud Data Management, OVF 
+1. Data-Intensive Computing mit MapReduce und Hadoop 
+1. Verteilte Datenbanken und Key-Value Stores: Datenmodelle, Konsistenzmodelle, Performance, Skalierbarkeit, Technologien 
 1. Amazon und Big Data: Elastic Map Reduce, Dynamo DB
 1. Google & Big Data: Google App Engine Map Reduce, Big Query, Prediction API
-1. Sicherheit (Risiken, Sicherheitsmaßnahmen, Protokolle (OpenID, OAuth), Technologien (Amazon VPC, Google Secure Data Connector)) (34, 35, 36, 37, 38)
-1. Datenvisualisierungen mit R
+1. Sicherheit: Risiken, Datenschutz, Sicherheitsmaßnahmen, Protokolle (OpenID, OAuth)
+1. Machine Learning with Apache Mahout
+1. Machine Learning mit Scikit-Learn
+1. Datenvisualisierungen: R und ggplot
 
 
 ## Literatur
 
+Bitte die folgenden Literaturempfehlungen als Startpunkt für eigene Recherchen 
+wählen.
+
+
+### Einführung und Motivation
+
+1. Tony Hey, Stewart Tansley, Kristin Tolle (Editors), The Fourth Paradigm, <http://research.microsoft.com/en-us/collaboration/fourthparadigm/>, 2009
+1. Stephen Wolfram: A New Kind of Science, <http://www.wolframscience.com/>, 2002
+1. DJ Patil, Data Jujitsu, O'Reilly, <http://oreillynet.com/oreilly/data/radarreports/data-jujitsu.csp>, 2012
+1. Alon Halevy, Peter Norvig, and Fernando Pereira, The Unreasonable Effectiveness of Data, <http://googleresearch.blogspot.de/2009/03/unreasonable-effectiveness-of-data.html>, 2009
+
+
+### Cloud Computing
 1. Peter Mell and Tim Grance. The NIST Definition of Cloud Computing, <http://csrc.nist.gov/groups/SNS/cloud-computing/>
 1. Michael Armbrust, Armando Fox, Rean Griffith, Anthony D. Joseph, Randy H. Katz, Andrew Konwinski, Gunho Lee, David A. Patterson, Ariel Rabkin, Ion Stoica, and Matei Zaharia. Above the clouds: A Berkeley View of Cloud Computing. Technical Report University of Berkley, 2009, <http://www.eecs.berkeley.edu/Pubs/TechRpts/2009/EECS-2009-28.pdf>
 1. S. Jha, D. Katz, A. Luckow, A. Merzky, K. Stamou, Understanding Scientific Applications for Cloud Environments, submitted to book on Cloud Computing, <http://www.cct.lsu.edu/~sjha/select_publications/cloud_book_chapter.pdf>
@@ -73,27 +87,43 @@ Werkzeugen und Infrastrukturen für die Verarbeitung von großen Datenmengen.
 1. Open Cloud Computing Interface, <http://www.occi-wg.org/doku.php>
 1. SNIA, Cloud Data Management Interface, <http://www.snia.org/tech_activities/publicreview/Cloud_Data_Management_Interface_Draft1.0.pdf>
 1. Open Virtual Machine Format White Paper, <http://www.dmtf.org/standards/published_documents/DSP2017_1.0.0.pdf>
-1. Jeffrey Dean and Sanjay Ghemawat. MapReduce: Simplified Data Processing on Large Clusters. In OSDI’04: Proceedings of the 6th conference on Symposium on Operating Systems Design & Implementation, pages 137–150, Berkeley, CA, USA, 2004. USENIX  Association.
-1. Sanjay Ghemawat, Howard Gobioff, and Shun-Tak Leung. The Google File System. SIGOPS Oper. Syst. Rev., 37(5):29–43, 2003.
-1. Hadoop: Open Source Implementation of MapReduce. <http://hadoop.apache.org/>
-1. Hadoop File System. <http://hadoop.apache.org/common/docs/current/hdfs_design.html>
-1. Amazon Elastic MapReduce. <http://aws.amazon.com/elasticmapreduce/>
-1. Fay Chang, Jeffrey Dean, Sanjay Ghemawat, Wilson C. Hsieh, Deborah A. Wallach, Mike Burrows, Tushar Chandra, Andrew Fikes, and Robert E. Gruber. Bigtable: a distributed storage system for structured data. In OSDI ’06: Proceedings of the 7th USENIX Symposium on Operating Systems Design and Implementation, pages 15–15, Berkeley, CA, USA, 2006. USENIX Association
 1. Giuseppe DeCandia, Deniz Hastorun, Madan Jampani, Gunavardhan Kakulapati, Avinash Lakshman, Alex Pilchin, Swaminathan Sivasubramanian, Peter Vosshall and Werner Vogels. Dynamo: Amazon’s Highly Available Key-value Store, 2007, <http://s3.amazonaws.com/AllThingsDistributed/sosp/amazon-dynamo-sosp2007.pdf>
-1. Apache HBase, <http://hadoop.apache.org/hbase/>
-1. Apache Cassandra, <http://cassandra.apache.org/>
-1. Amazon SimpleDB, <http://aws.amazon.com/simpledb/>
-1. Amazon Security Whitepaper, 2009, <http://awsmedia.s3.amazonaws.com/pdf/AWS_Security_Whitepaper.pdf>
+1. Amazon Security Whitepaper,  <http://awsmedia.s3.amazonaws.com/pdf/AWS_Security_Whitepaper.pdf>, 2009
 1. Amazon Security Best Practices, 2010, <http://awsmedia.s3.amazonaws.com/Whitepaper_Security_Best_Practices_2010.pdf>
-1. Google Secure Data Connector, <http://code.google.com/intl/de-DE/securedataconnector/docs/1.0/overview.html>
 1. Amazon VPC, <http://aws.amazon.com/vpc/>
 1. OAuth, <http://oauth.net/>
 1. Cloud Computing Tutorial. <https://research.microsoft.com/en-us/projects/azure/sc09cc.ppsx>
-1. VMWare/Google Collaboration. <http://www.vmware.com/company/news/releases/vmware-google.html>
 1. Sriram Krishnan, Programming Windows Azure, O'Reilly, 2010.
-1. How to Develop a Rich, Native-quality User Experience for Mobile Using Web Standards: <http://slidesha.re/csGs3u>
-1. Jonathan Stark, Building iPhone Apps with HTML, CSS and Javascript, O'Reilly, 2010, <http://slidesha.re/9JyrWu>
-1. Mike Burrows, The Chubby Lock Service for Loosely-Coupled Distributed Systems, <http://labs.google.com/papers/chubby.html>
 1. Leslie Lamport, The Part-Time Parliament, <http://research.microsoft.com/en-us/um/people/lamport/pubs/lamport-paxos.pdf>
-1. Thorsten Claus, Daniel Kellmereit, Yasmin Narielvala, The Future of Cloud, <http://thefutureofcloud.com/>
-1. DJ Patil, Data Jujitsu, O'Reilly, <http://oreillynet.com/oreilly/data/radarreports/data-jujitsu.csp>, 2012
+1. Thorsten Claus, Daniel Kellmereit, Yasmin Narielvala, The Future of Cloud,
+<http://thefutureofcloud.com/>
+
+
+### Big Data und MapReduce
+
+1. Jeffrey Dean and Sanjay Ghemawat. MapReduce: Simplified Data Processing on Large Clusters. In OSDI’04: Proceedings of the 6th conference on Symposium on Operating Systems Design & Implementation, pages 137–150, Berkeley, CA, USA, 2004. USENIX  Association.
+1. Sanjay Ghemawat, Howard Gobioff, and Shun-Tak Leung. The Google File System. SIGOPS Oper. Syst. Rev., 37(5):29–43, 2003.
+1. Fay Chang, Jeffrey Dean, Sanjay Ghemawat, Wilson C. Hsieh, Deborah A. Wallach, Mike Burrows, Tushar Chandra, Andrew Fikes, and Robert E. Gruber. Bigtable: a distributed storage system for structured data. In OSDI ’06: Proceedings of the 7th USENIX Symposium on Operating Systems Design and Implementation, pages 15–15, Berkeley, CA, USA, 2006. USENIX Association
+1. Tom White, Hadoop: The Definitive Guide, 3rd Edition, <http://shop.oreilly.com/product/0636920021773.do>
+1. Hadoop: Open Source Implementation of MapReduce. <http://hadoop.apache.org/>
+1. Hadoop File System. <http://hadoop.apache.org/common/docs/current/hdfs_design.html>
+1. Amazon Elastic MapReduce. <http://aws.amazon.com/elasticmapreduce/>
+1. Hadoop on Azure. <https://www.hadooponazure.com/>
+1. MapReduce: Patterns, Algorithms and Use Cases,  <http://highlyscalable.wordpress.com/2012/02/01/mapreduce-patterns/>
+1. Apache HBase, <http://hadoop.apache.org/hbase/>
+1. Apache Cassandra, <http://cassandra.apache.org/>
+1. Amazon SimpleDB, <http://aws.amazon.com/simpledb/>
+
+
+### Machine Learning
+1. Scikit Learn, <http://scikit-learn.org/>
+1. Scikit Learn Tutorial, <http://www.youtube.com/watch?v=Zd5dfooZWG4&feature=player_embedded#!>
+1. Greg Linden, Brent Smith, and Jeremy York, Amazon.com
+Recommendations Item-to-Item Collaborative Filtering, IEEE Computer Society, 
+2003
+
+### Visualisierungen
+1. Robert Kabacoff, R in Action, Manning, 2011
+1. Hadley Wickham, ggplot2 - Elegant Graphics for Data Analysis, 2009
+1. D3: Data-driven Documents, <http://d3js.org/>
+
