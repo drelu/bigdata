@@ -15,7 +15,13 @@ Data, zu vermitteln. Die Studierenden vertiefen ihre betriebswirtschaftlichen un
 praxisorientiert im Umfeld Big Data. Sie werden vertraut gemacht mit Methoden, Techniken, Verfahren, 
 Werkzeugen und Infrastrukturen für die Verarbeitung von großen Datenmengen.
 
-    
+Im Rahmen dieses Kurses werden Sie im Rahmen einer Studienarbeit ein Thema 
+vertieft bearbeiten. Des Weiteren werden mehrere praktische Übungen unter 
+Nutzung der Cloud Dienste von [Amazon Web Services](http://aws.amazon.com) durchgeführt. Vielen Dank gilt dabei
+der Firma Amazon, welche diesen Kurs im Rahmen ihres Education Programmes
+unterstützt.
+
+
 ## Aktuelle Informationen
 
 
@@ -30,11 +36,7 @@ Werkzeugen und Infrastrukturen für die Verarbeitung von großen Datenmengen.
 
 1. Einführung: Big Data und seine Anwendungen 
 1. Daten-intensive Anwendungen in der Wissenschaft
-1. Entwicklung von Datengetriebenen Anwendungen und Produkten 
-1. Grundlagen: Web- und Service-orientierte Architekturen (HTTP, Service-orientierte Architekturen, Web Services) 
-1. Grundlagen: Virtualisierung (KVM, XEN) 
 1. Cloud-Technologie: Amazon Web Services (EC2, EBS, S3) 
-1. On-Premise Cloud-Technologien: Eucalyptus und OpenStack 
 1. Cloud-Technologie: Windows Azure 
 1. Cloud-Technologie: Google Compute und App Engine 
 1. Fehlertoleranz in Verteilten Systemen: Quorum Protokolle, Apache Zookeeper
@@ -44,8 +46,8 @@ Werkzeugen und Infrastrukturen für die Verarbeitung von großen Datenmengen.
 1. Amazon und Big Data: Elastic Map Reduce, Dynamo DB
 1. Google & Big Data: Google App Engine Map Reduce, Big Query, Prediction API
 1. Sicherheit: Risiken, Datenschutz, Sicherheitsmaßnahmen, Protokolle (OpenID, OAuth)
-1. Machine Learning with Apache Mahout
-1. Machine Learning mit Scikit-Learn
+1. Practical Machine Learning (Apache Mahout, Scikit-Learn)
+1. Natural Language Processing
 1. Datenvisualisierungen: R und ggplot
 
 
@@ -60,8 +62,10 @@ wählen.
 1. Tony Hey, Stewart Tansley, Kristin Tolle (Editors), The Fourth Paradigm, <http://research.microsoft.com/en-us/collaboration/fourthparadigm/>, 2009
 1. Stephen Wolfram: A New Kind of Science, <http://www.wolframscience.com/>, 2002
 1. DJ Patil, Data Jujitsu, O'Reilly, <http://oreillynet.com/oreilly/data/radarreports/data-jujitsu.csp>, 2012
+1. Mike Loukides, What is data science, <http://radar.oreilly.com/2010/06/what-is-data-science.html> O'Reilly, 2010
 1. Alon Halevy, Peter Norvig, and Fernando Pereira, The Unreasonable Effectiveness of Data, <http://googleresearch.blogspot.de/2009/03/unreasonable-effectiveness-of-data.html>, 2009
-
+1. IDC/EMC Digital Universe Study, <http://www.emc.com/leadership/programs/digital-universe.htm>, 2011
+1. McKinsey Global Institute, Big data: The next frontier for innovation, competition, and productivity, <http://www.mckinsey.com/insights/mgi/research/technology_and_innovation/big_data_the_next_frontier_for_innovation>, 2011
 
 ### Cloud Computing
 1. Peter Mell and Tim Grance. The NIST Definition of Cloud Computing, <http://csrc.nist.gov/groups/SNS/cloud-computing/>
@@ -71,9 +75,6 @@ wählen.
 1. W3C HTTP Protocol, <http://www.w3.org/Protocols/>
 1. W3C Consortium. Web Services Architecture, <http://www.w3.org/TR/ws-arch/>
 1. R. Fielding. Architectural Styles and the Design of Network-based Software Architectures. PhD thesis, University of California, Irvine, 2000, <http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm>
-1. Amit Singh, An Introduction to Virtualization, <http://www.kernelthread.com/publications/virtualization/>
-1. Linux KVM, http://www.linux-kvm.org/
-1. Paul Barham et al. Xen and the Art of Virtualization, <http://www.cl.cam.ac.uk/research/srg/netos/papers/2003-xensosp.pdf>
 1. Amazon Web Services, <http://aws.amazon.com>
 1. Amazon Web Services Whitepaper, 2009, <http://awsmedia.s3.amazonaws.com/AWS_Overview_Whitepaper_120809.pdf>
 1. Google App Engine. <http://code.google.com/appengine/>
@@ -82,15 +83,10 @@ wählen.
 1. Eucalyptus. <http://open.eucalyptus.com/>
 1. Eucalyptus Walrus. <http://open.eucalyptus.com/wiki/EucalyptusStorage_v1.4> 
 1. K. Keahey, I. Foster, T. Freeman, and X. Zhang. Virtual Workspaces: Achieving Quality of Service and Quality of Life in the Grid. Scientific Programming, 13(4):265–275, 2005.
-1. OpenStack, <http://www.openstack.org/>
 1. Cloud Standards Wiki, <http://cloud-standards.org>
-1. Open Cloud Computing Interface, <http://www.occi-wg.org/doku.php>
-1. SNIA, Cloud Data Management Interface, <http://www.snia.org/tech_activities/publicreview/Cloud_Data_Management_Interface_Draft1.0.pdf>
-1. Open Virtual Machine Format White Paper, <http://www.dmtf.org/standards/published_documents/DSP2017_1.0.0.pdf>
 1. Giuseppe DeCandia, Deniz Hastorun, Madan Jampani, Gunavardhan Kakulapati, Avinash Lakshman, Alex Pilchin, Swaminathan Sivasubramanian, Peter Vosshall and Werner Vogels. Dynamo: Amazon’s Highly Available Key-value Store, 2007, <http://s3.amazonaws.com/AllThingsDistributed/sosp/amazon-dynamo-sosp2007.pdf>
 1. Amazon Security Whitepaper,  <http://awsmedia.s3.amazonaws.com/pdf/AWS_Security_Whitepaper.pdf>, 2009
 1. Amazon Security Best Practices, 2010, <http://awsmedia.s3.amazonaws.com/Whitepaper_Security_Best_Practices_2010.pdf>
-1. Amazon VPC, <http://aws.amazon.com/vpc/>
 1. OAuth, <http://oauth.net/>
 1. Cloud Computing Tutorial. <https://research.microsoft.com/en-us/projects/azure/sc09cc.ppsx>
 1. Sriram Krishnan, Programming Windows Azure, O'Reilly, 2010.
@@ -118,6 +114,7 @@ wählen.
 ### Machine Learning
 1. Scikit Learn, <http://scikit-learn.org/>
 1. Scikit Learn Tutorial, <http://www.youtube.com/watch?v=Zd5dfooZWG4&feature=player_embedded#!>
+1. Jacob Perkins, Python Text Processing with NTLK 2.0 Cookbook, Packt Publishing, 2010
 1. Greg Linden, Brent Smith, and Jeremy York, Amazon.com
 Recommendations Item-to-Item Collaborative Filtering, IEEE Computer Society, 
 2003
@@ -126,4 +123,11 @@ Recommendations Item-to-Item Collaborative Filtering, IEEE Computer Society,
 1. Robert Kabacoff, R in Action, Manning, 2011
 1. Hadley Wickham, ggplot2 - Elegant Graphics for Data Analysis, 2009
 1. D3: Data-driven Documents, <http://d3js.org/>
+1. Jeff Hammerbach, Toby Segaran, Beautiful Data, O'Reilly, 2009
+1. Julie Steele, Noah Iliinsky, Beautiful Visualizations, O'Reilly, 2010
 
+
+
+# Acknowledgements
+
+![Amazon Web Services](http://upload.wikimedia.org/wikipedia/de/thumb/1/1d/AmazonWebservices_Logo.svg/220px-AmazonWebservices_Logo.svg.png)
