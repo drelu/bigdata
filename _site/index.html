@@ -114,17 +114,17 @@
 
 <li>Cloud-Technologie: Google Compute und App Engine</li>
 
-<li>Fehlertoleranz in Verteilten Systemen: Quorum Protokolle, Apache Zookeeper</li>
-
-<li>Cloud Standards: OCCI, SNIA Cloud Data Management, OVF</li>
-
 <li>Data-Intensive Computing mit MapReduce und Hadoop</li>
 
 <li>Verteilte Datenbanken und Key-Value Stores: Datenmodelle, Konsistenzmodelle, Performance, Skalierbarkeit, Technologien</li>
 
-<li>Amazon und Big Data: Elastic Map Reduce, Dynamo DB</li>
+<li>Amazon und Big Data: Elastic Map Reduce, DynamoDB</li>
+
+<li>Google Infrastruktur: Dremel and Spanner</li>
 
 <li>Google &amp; Big Data: Google App Engine Map Reduce, Big Query, Prediction API</li>
+
+<li>Fehlertoleranz in Verteilten Systemen: Quorum Protokolle, Apache Zookeeper</li>
 
 <li>Sicherheit: Risiken, Datenschutz, Sicherheitsmaßnahmen, Protokolle (OpenID, OAuth)</li>
 
@@ -132,14 +132,14 @@
 
 <li>Natural Language Processing</li>
 
-<li>Datenvisualisierungen: R und ggplot</li>
+<li>Datenvisualisierungen</li>
 </ol>
 
 <h2 id='literatur'>Literatur</h2>
 
 <p>Bitte die folgenden Literaturempfehlungen als Startpunkt für eigene Recherchen wählen.</p>
 
-<h3 id='einfhrung_und_motivation'>Einführung und Motivation</h3>
+<h3 id='1_einfhrung_und_motivation'>1. Einführung und Motivation</h3>
 
 <ol>
 <li>Tony Hey, Stewart Tansley, Kristin Tolle (Editors), The Fourth Paradigm, <a href='http://research.microsoft.com/en-us/collaboration/fourthparadigm/'>http://research.microsoft.com/en-us/collaboration/fourthparadigm/</a>, 2009</li>
@@ -157,7 +157,7 @@
 <li>McKinsey Global Institute, Big data: The next frontier for innovation, competition, and productivity, <a href='http://www.mckinsey.com/insights/mgi/research/technology_and_innovation/big_data_the_next_frontier_for_innovation'>http://www.mckinsey.com/insights/mgi/research/technology_and_innovation/big_data_the_next_frontier_for_innovation</a>, 2011</li>
 </ol>
 
-<h3 id='cloud_computing'>Cloud Computing</h3>
+<h3 id='2_cloud_computing_und_large_scale_infrastrukturen'>2. Cloud Computing und Large Scale Infrastrukturen</h3>
 
 <ol>
 <li>Peter Mell and Tim Grance. The NIST Definition of Cloud Computing, <a href='http://csrc.nist.gov/groups/SNS/cloud-computing/'>http://csrc.nist.gov/groups/SNS/cloud-computing/</a></li>
@@ -182,8 +182,6 @@
 
 <li>Windows Azure. <a href='http://www.microsoft.com/windowsazure/'>http://www.microsoft.com/windowsazure/</a></li>
 
-<li>Salesforce: Force.com Developer Resources, <a href='http://developer.force.com/'>http://developer.force.com/</a></li>
-
 <li>Eucalyptus. <a href='http://open.eucalyptus.com/'>http://open.eucalyptus.com/</a></li>
 
 <li>Eucalyptus Walrus. <a href='http://open.eucalyptus.com/wiki/EucalyptusStorage_v1.4'>http://open.eucalyptus.com/wiki/EucalyptusStorage_v1.4</a></li>
@@ -207,9 +205,13 @@
 <li>Leslie Lamport, The Part-Time Parliament, <a href='http://research.microsoft.com/en-us/um/people/lamport/pubs/lamport-paxos.pdf'>http://research.microsoft.com/en-us/um/people/lamport/pubs/lamport-paxos.pdf</a></li>
 
 <li>Thorsten Claus, Daniel Kellmereit, Yasmin Narielvala, The Future of Cloud, <a href='http://thefutureofcloud.com/'>http://thefutureofcloud.com/</a></li>
+
+<li>Jeffrey Dean et. al., Spanner: Google&#8217;s Globally-Distributed Database, OSDI, 2012, <a href='Spanner: Google&apos;s Globally-Distributed Database'>Spanner: Google&apos;s Globally-Distributed Database</a></li>
+
+<li>Sergey Melnik, Andrey Gubarev, Jing Jing Long, Geoffrey Romer, Shiva Shivakumar, Matt Tolton, Theo Vassilakis, Dremel: Interactive Analysis of Web-Scale Datasets, <a href='http://research.google.com/pubs/pub36632.html'>http://research.google.com/pubs/pub36632.html</a></li>
 </ol>
 
-<h3 id='big_data_und_mapreduce'>Big Data und MapReduce</h3>
+<h3 id='3_big_data_und_mapreduce'>3. Big Data und MapReduce</h3>
 
 <ol>
 <li>Jeffrey Dean and Sanjay Ghemawat. MapReduce: Simplified Data Processing on Large Clusters. In OSDI’04: Proceedings of the 6th conference on Symposium on Operating Systems Design &amp; Implementation, pages 137–150, Berkeley, CA, USA, 2004. USENIX Association.</li>
@@ -237,7 +239,7 @@
 <li>Amazon SimpleDB, <a href='http://aws.amazon.com/simpledb/'>http://aws.amazon.com/simpledb/</a></li>
 </ol>
 
-<h3 id='machine_learning'>Machine Learning</h3>
+<h3 id='4_machine_learning'>4. Machine Learning</h3>
 
 <ol>
 <li>Scikit Learn, <a href='http://scikit-learn.org/'>http://scikit-learn.org/</a></li>
@@ -249,7 +251,7 @@
 <li>Greg Linden, Brent Smith, and Jeremy York, Amazon.com Recommendations Item-to-Item Collaborative Filtering, IEEE Computer Society, 2003</li>
 </ol>
 
-<h3 id='visualisierungen'>Visualisierungen</h3>
+<h3 id='5_visualisierungen'>5. Visualisierungen</h3>
 
 <ol>
 <li>Robert Kabacoff, R in Action, Manning, 2011</li>
@@ -265,7 +267,7 @@
 
 <h1 id='acknowledgements'>Acknowledgements</h1>
 
-<p><img src='http://upload.wikimedia.org/wikipedia/de/thumb/1/1d/AmazonWebservices_Logo.svg/220px-AmazonWebservices_Logo.svg.png' alt='Amazon Web Services' /></p>
+<p><img alt='Amazon Web Services' src='http://upload.wikimedia.org/wikipedia/de/thumb/1/1d/AmazonWebservices_Logo.svg/220px-AmazonWebservices_Logo.svg.png' /></p>
   </div>
 </div>
 

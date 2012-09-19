@@ -39,16 +39,16 @@ unterstützt.
 1. Cloud-Technologie: Amazon Web Services (EC2, EBS, S3) 
 1. Cloud-Technologie: Windows Azure 
 1. Cloud-Technologie: Google Compute und App Engine 
-1. Fehlertoleranz in Verteilten Systemen: Quorum Protokolle, Apache Zookeeper
-1. Cloud Standards: OCCI, SNIA Cloud Data Management, OVF 
 1. Data-Intensive Computing mit MapReduce und Hadoop 
 1. Verteilte Datenbanken und Key-Value Stores: Datenmodelle, Konsistenzmodelle, Performance, Skalierbarkeit, Technologien 
-1. Amazon und Big Data: Elastic Map Reduce, Dynamo DB
+1. Amazon und Big Data: Elastic Map Reduce, DynamoDB
+1. Google Infrastruktur: Dremel and Spanner
 1. Google & Big Data: Google App Engine Map Reduce, Big Query, Prediction API
+1. Fehlertoleranz in Verteilten Systemen: Quorum Protokolle, Apache Zookeeper
 1. Sicherheit: Risiken, Datenschutz, Sicherheitsmaßnahmen, Protokolle (OpenID, OAuth)
 1. Practical Machine Learning (Apache Mahout, Scikit-Learn)
 1. Natural Language Processing
-1. Datenvisualisierungen: R und ggplot
+1. Datenvisualisierungen
 
 
 ## Literatur
@@ -57,7 +57,7 @@ Bitte die folgenden Literaturempfehlungen als Startpunkt für eigene Recherchen
 wählen.
 
 
-### Einführung und Motivation
+### 1. Einführung und Motivation
 
 1. Tony Hey, Stewart Tansley, Kristin Tolle (Editors), The Fourth Paradigm, <http://research.microsoft.com/en-us/collaboration/fourthparadigm/>, 2009
 1. Stephen Wolfram: A New Kind of Science, <http://www.wolframscience.com/>, 2002
@@ -67,7 +67,7 @@ wählen.
 1. IDC/EMC Digital Universe Study, <http://www.emc.com/leadership/programs/digital-universe.htm>, 2011
 1. McKinsey Global Institute, Big data: The next frontier for innovation, competition, and productivity, <http://www.mckinsey.com/insights/mgi/research/technology_and_innovation/big_data_the_next_frontier_for_innovation>, 2011
 
-### Cloud Computing
+### 2. Cloud Computing und Large Scale Infrastrukturen
 1. Peter Mell and Tim Grance. The NIST Definition of Cloud Computing, <http://csrc.nist.gov/groups/SNS/cloud-computing/>
 1. Michael Armbrust, Armando Fox, Rean Griffith, Anthony D. Joseph, Randy H. Katz, Andrew Konwinski, Gunho Lee, David A. Patterson, Ariel Rabkin, Ion Stoica, and Matei Zaharia. Above the clouds: A Berkeley View of Cloud Computing. Technical Report University of Berkley, 2009, <http://www.eecs.berkeley.edu/Pubs/TechRpts/2009/EECS-2009-28.pdf>
 1. S. Jha, D. Katz, A. Luckow, A. Merzky, K. Stamou, Understanding Scientific Applications for Cloud Environments, submitted to book on Cloud Computing, <http://www.cct.lsu.edu/~sjha/select_publications/cloud_book_chapter.pdf>
@@ -79,7 +79,6 @@ wählen.
 1. Amazon Web Services Whitepaper, 2009, <http://awsmedia.s3.amazonaws.com/AWS_Overview_Whitepaper_120809.pdf>
 1. Google App Engine. <http://code.google.com/appengine/>
 1. Windows Azure. <http://www.microsoft.com/windowsazure/>
-1. Salesforce: Force.com Developer Resources, <http://developer.force.com/>
 1. Eucalyptus. <http://open.eucalyptus.com/>
 1. Eucalyptus Walrus. <http://open.eucalyptus.com/wiki/EucalyptusStorage_v1.4> 
 1. K. Keahey, I. Foster, T. Freeman, and X. Zhang. Virtual Workspaces: Achieving Quality of Service and Quality of Life in the Grid. Scientific Programming, 13(4):265–275, 2005.
@@ -93,9 +92,12 @@ wählen.
 1. Leslie Lamport, The Part-Time Parliament, <http://research.microsoft.com/en-us/um/people/lamport/pubs/lamport-paxos.pdf>
 1. Thorsten Claus, Daniel Kellmereit, Yasmin Narielvala, The Future of Cloud,
 <http://thefutureofcloud.com/>
+1. Jeffrey Dean et. al., Spanner: Google's Globally-Distributed Database, OSDI, 2012, <Spanner: Google's Globally-Distributed Database>
+1. Sergey Melnik, Andrey Gubarev, Jing Jing Long, Geoffrey Romer, Shiva Shivakumar, Matt Tolton, Theo Vassilakis, Dremel: Interactive Analysis of Web-Scale Datasets, <http://research.google.com/pubs/pub36632.html>
 
 
-### Big Data und MapReduce
+
+### 3. Big Data und MapReduce
 
 1. Jeffrey Dean and Sanjay Ghemawat. MapReduce: Simplified Data Processing on Large Clusters. In OSDI’04: Proceedings of the 6th conference on Symposium on Operating Systems Design & Implementation, pages 137–150, Berkeley, CA, USA, 2004. USENIX  Association.
 1. Sanjay Ghemawat, Howard Gobioff, and Shun-Tak Leung. The Google File System. SIGOPS Oper. Syst. Rev., 37(5):29–43, 2003.
@@ -111,7 +113,7 @@ wählen.
 1. Amazon SimpleDB, <http://aws.amazon.com/simpledb/>
 
 
-### Machine Learning
+### 4. Machine Learning
 1. Scikit Learn, <http://scikit-learn.org/>
 1. Scikit Learn Tutorial, <http://www.youtube.com/watch?v=Zd5dfooZWG4&feature=player_embedded#!>
 1. Jacob Perkins, Python Text Processing with NTLK 2.0 Cookbook, Packt Publishing, 2010
@@ -119,7 +121,7 @@ wählen.
 Recommendations Item-to-Item Collaborative Filtering, IEEE Computer Society, 
 2003
 
-### Visualisierungen
+### 5. Visualisierungen
 1. Robert Kabacoff, R in Action, Manning, 2011
 1. Hadley Wickham, ggplot2 - Elegant Graphics for Data Analysis, 2009
 1. D3: Data-driven Documents, <http://d3js.org/>
