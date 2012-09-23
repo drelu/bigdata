@@ -38,7 +38,9 @@ Vielen Dank gilt dabei der Firma Amazon, welche diesen Kurs im Rahmen ihres Educ
 
 1. Einführung: Big Data und seine Anwendungen in der Wirtschaft und Wissenschaft (1.1-1.7)
 1. MapReduce und Hadoop: HDFS und Hadoop MapReduce Framework (3.1-3.6)
-1. Hive und Pig (3.7-3.10)
+1. MapReduce Patterns und Applikationen (3.41-3.43)
+1. Big Table und HBase (3.3, 3.4, 3.39, 3.40)
+1. Hive, Pig und HCatalog (3.7-3.10)
 1. Hadoop Ecosystem: Distributionen und Tools (3.36, 3.37, 3.38)
 1. Hadoop 2.0: Yarn (3.4, 3.5)
 1. In-Memory Databases (3.20)
@@ -58,8 +60,7 @@ Vielen Dank gilt dabei der Firma Amazon, welche diesen Kurs im Rahmen ihres Educ
 
 ## Literatur
 
-Bitte die folgenden Literaturempfehlungen als Startpunkt für eigene Recherchen 
-wählen.
+Bitte die folgenden Literaturempfehlungen als Startpunkt für eigene Recherchen wählen.
 
 
 ### 1. Einführung und Motivation
@@ -132,6 +133,11 @@ Jean-Michel Leon, Yawei Li, Alexander Lloyd, Vadim Yushprakh, Megastore: Providi
 1. Hortonworks, <http://www.hortonworks.com>
 1. Cloudera, <http://www.cloudera.com>
 1. MapR, <http://www.mapr.com>
+1. Lars George, HBase: The Definitive Guide, O'Reilly, 2011
+1. Lars George, HBase vs. BigTable Comparison, <http://www.larsgeorge.com/2009/11/hbase-vs-bigtable-comparison.html>, 2009
+1. MapReduce Patterns, <http://highlyscalable.wordpress.com/2012/02/01/mapreduce-patterns/>
+1. Lawrence Page and Sergey Brin and Rajeev Motwani and Terry Winograd, The PageRank Citation Ranking: Bringing Order to the Web, Stanford Technical Report, <http://ilpubs.stanford.edu:8090/422/>, 1999
+1. M. Schatz, CloudBurst: Highly Sensitive Short Read Mapping with MapReduce, <http://sourceforge.net/apps/mediawiki/cloudburst-bio/index.php?title=CloudBurst>, 2009 
 
 ### 4. Machine Learning
 1. Apache Mahout, <http://mahout.apache.org>
