@@ -33,20 +33,3 @@ published: false
 	* Twitter Streaming API Präsentation, <http://www.slideshare.net/jkalucki/thinking-in-streaming-twitter-streaming-api>
 
 <br/>
-
-# Datenanalyse mit Kommando-Zeile und Python
-<br/>  
-  
-Notwendige Daten/Tools
-* <http://ita.ee.lbl.gov/html/contrib/NASA-HTTP.html>
-* Commandline data tools <https://github.com/bitly/data_hacks>
-* Daten: `cloud.luckow-hm.de:/data/NASA_access_log_Jul95`
-
-<br/> 
-
-1. Nutzen die Kommandos `head`, `cat`, `uniq`, `wc`, `sort`, `find`, `xargs`, `awk` um die NASA Access Logs auszuwerten:
-    1. Welche Seiten werden am meisten genutzt?
-	1. Wie viele HTTP Fehler gab es?
-	1. Nutzen Sie die Data tools um folgende Auswertungen zu erzeugen:
-		
-

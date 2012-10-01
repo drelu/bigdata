@@ -37,6 +37,7 @@ Vielen Dank gilt dabei der Firma Amazon, welche diesen Kurs im Rahmen ihres Educ
 ## Themen
 
 1. Einführung: Big Data und seine Anwendungen in der Wirtschaft und Wissenschaft (1.1-1.7)
+1. Open Data and Government (1.8-1.11)
 1. MapReduce und Hadoop: HDFS und Hadoop MapReduce Framework (3.1-3.6)
 1. MapReduce Patterns und Applikationen (3.41-3.43)
 1. Big Table und HBase (3.3, 3.4, 3.39, 3.40)
@@ -49,7 +50,7 @@ Vielen Dank gilt dabei der Firma Amazon, welche diesen Kurs im Rahmen ihres Educ
 1. CAP Theorem and Eventual Consistency (3.21-3.23)
 1. Fehlertoleranz in Verteilten Systemen: Quorum Protokolle, Apache Zookeeper (3.19, 3.27)
 1. Amazon und Big Data: Elastic Map Reduce, SimpleDB, DynamoDB (3.11, 3.16, 3.21)
-1. Google Infrastruktur: Pregel und Dremel (3.18, 3.30)
+1. Google Infrastruktur: Pregel und Dremel (3.18, 3.30, 3.44)
 1. Google Filesystem Evolution: GFS, Megastore und Spanner (3.2, 3.17, 3.29)
 1. Google & Big Data: Google App Engine Map Reduce, Big Query, Prediction API (3.6, 3.18, 3.32, 3.33, 3.34)
 1. Einführung Machine Learning (4.9, 4.10)
@@ -63,7 +64,7 @@ Vielen Dank gilt dabei der Firma Amazon, welche diesen Kurs im Rahmen ihres Educ
 Bitte die folgenden Literaturempfehlungen als Startpunkt für eigene Recherchen wählen.
 
 
-### 1. Einführung und Motivation
+### 1. Einführung, Motivation und Open Daten
 
 1. Tony Hey, Stewart Tansley, Kristin Tolle (Editors), The Fourth Paradigm, <http://research.microsoft.com/en-us/collaboration/fourthparadigm/>, 2009
 1. Stephen Wolfram: A New Kind of Science, <http://www.wolframscience.com/>, 2002
@@ -72,6 +73,10 @@ Bitte die folgenden Literaturempfehlungen als Startpunkt für eigene Recherchen 
 1. Alon Halevy, Peter Norvig, and Fernando Pereira, The Unreasonable Effectiveness of Data, <http://googleresearch.blogspot.de/2009/03/unreasonable-effectiveness-of-data.html>, 2009
 1. IDC/EMC Digital Universe Study, <http://www.emc.com/leadership/programs/digital-universe.htm>, 2011
 1. McKinsey Global Institute, Big data: The next frontier for innovation, competition, and productivity, <http://www.mckinsey.com/insights/mgi/research/technology_and_innovation/big_data_the_next_frontier_for_innovation>, 2011
+1. München Open Data, <http://www.muenchen.de/opendata>
+1. Berlin Open Data, <http://daten.berlin.de/>
+1. New York Open Data, <http://www.nyc.gov/html/data/about.html>
+1. Alex Howard, Data for Public Good, <http://strata.oreilly.com/2012/02/data-public-good.html>, O'Reilly, 2012
 
 ### 2. Cloud Computing
 1. Peter Mell and Tim Grance. The NIST Definition of Cloud Computing, <http://csrc.nist.gov/groups/SNS/cloud-computing/>
@@ -138,6 +143,7 @@ Jean-Michel Leon, Yawei Li, Alexander Lloyd, Vadim Yushprakh, Megastore: Providi
 1. MapReduce Patterns, <http://highlyscalable.wordpress.com/2012/02/01/mapreduce-patterns/>
 1. Lawrence Page and Sergey Brin and Rajeev Motwani and Terry Winograd, The PageRank Citation Ranking: Bringing Order to the Web, Stanford Technical Report, <http://ilpubs.stanford.edu:8090/422/>, 1999
 1. M. Schatz, CloudBurst: Highly Sensitive Short Read Mapping with MapReduce, <http://sourceforge.net/apps/mediawiki/cloudburst-bio/index.php?title=CloudBurst>, 2009 
+1. Apache Drill, <http://www.slideshare.net/jasonfrantz/drill-bay-area-hug-20120919/13>
 
 ### 4. Machine Learning
 1. Apache Mahout, <http://mahout.apache.org>
