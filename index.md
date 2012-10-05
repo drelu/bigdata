@@ -56,7 +56,7 @@ Vielen Dank gilt dabei der Firma Amazon, welche diesen Kurs im Rahmen ihres Educ
 1. Einführung Machine Learning (4.9, 4.10)
 1. Machine Learning mit Apache Mahout (4.1,4.2)
 1. Natural Language Processing (4.6, 4.7)
-1. Datenvisualisierungen (5.1-5.5)
+1. Datenvisualisierungen und Storytelling (5.1-5.5)
 
 
 ## Literatur
@@ -77,6 +77,7 @@ Bitte die folgenden Literaturempfehlungen als Startpunkt für eigene Recherchen 
 1. Berlin Open Data, <http://daten.berlin.de/>
 1. New York Open Data, <http://www.nyc.gov/html/data/about.html>
 1. Alex Howard, Data for Public Good, <http://strata.oreilly.com/2012/02/data-public-good.html>, O'Reilly, 2012
+
 
 ### 2. Cloud Computing
 1. Peter Mell and Tim Grance. The NIST Definition of Cloud Computing, <http://csrc.nist.gov/groups/SNS/cloud-computing/>
@@ -158,6 +159,8 @@ Recommendations Item-to-Item Collaborative Filtering, IEEE Computer Society,
 2003
 1. Toby Segaran, Programming Collective Intelligence, O'Reilly, 2007
 1. Drew Conway, John Myles White, Machine Learning for Hackers, O'Reilly, 2012 
+1. Test, Learn, Adapt: Developing Public Policy with Randomised Controlled Trials: <http://www.pacts.org.uk/docs/pdf-bank/TLA-1906126.pdf>
+1. Jimmy Lin and Chris Dyer, Data-Intensive Text Processing with MapReduce, Morgan & Claypool Publishers, 2010, <http://mapreduce.cc/>
 
 ### 5. Visualisierungen
 1. Robert Kabacoff, R in Action, Manning, 2011
@@ -165,7 +168,7 @@ Recommendations Item-to-Item Collaborative Filtering, IEEE Computer Society,
 1. D3: Data-driven Documents, <http://d3js.org/>
 1. Jeff Hammerbach, Toby Segaran, Beautiful Data, O'Reilly, 2009
 1. Julie Steele, Noah Iliinsky, Beautiful Visualizations, O'Reilly, 2010
-
+1. <http://datajournalismhandbook.org/>
 
 
 # Acknowledgements
