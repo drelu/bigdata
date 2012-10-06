@@ -59,6 +59,10 @@ Vielen Dank gilt dabei der Firma Amazon, welche diesen Kurs im Rahmen ihres Educ
 1. Datenvisualisierungen (5.1-5.5, 1.12)
 
 
+## Vorlesungsmaterial
+
+Das Material zur Vorlesung kann [hier](http://fara.cs.uni-potsdam.de/~luckow/ws2012/) heruntergeladen werden. 
+
 ## Literatur
 
 Bitte die folgenden Literaturempfehlungen als Startpunkt für eigene Recherchen wählen.
