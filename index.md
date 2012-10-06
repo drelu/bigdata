@@ -96,7 +96,7 @@ Bitte die folgenden Literaturempfehlungen als Startpunkt für eigene Recherchen 
 1. Sriram Krishnan, Programming Windows Azure, O'Reilly, 2010.
 1. Thorsten Claus, Daniel Kellmereit, Yasmin Narielvala, The Future of Cloud,
 <http://thefutureofcloud.com/>
-
+1. Jonathan Gray, Liliana Bounegru, Lucy Chambers (editors), The Data Journalism Handbook, 2012 <http://datajournalismhandbook.org/>
 
 ### 3. Big Data
 
@@ -168,7 +168,7 @@ Recommendations Item-to-Item Collaborative Filtering, IEEE Computer Society,
 1. D3: Data-driven Documents, <http://d3js.org/>
 1. Jeff Hammerbach, Toby Segaran, Beautiful Data, O'Reilly, 2009
 1. Julie Steele, Noah Iliinsky, Beautiful Visualizations, O'Reilly, 2010
-1. <http://datajournalismhandbook.org/>
+
 
 
 # Acknowledgements
