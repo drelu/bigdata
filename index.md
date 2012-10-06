@@ -37,7 +37,7 @@ Vielen Dank gilt dabei der Firma Amazon, welche diesen Kurs im Rahmen ihres Educ
 ## Themen
 
 1. Einführung: Big Data und seine Anwendungen in der Wirtschaft und Wissenschaft (1.1-1.7)
-1. Open Data and Government (1.8-1.11)
+1. Open Data and Government (1.8-1.12)
 1. MapReduce und Hadoop: HDFS und Hadoop MapReduce Framework (3.1-3.6)
 1. MapReduce Patterns und Applikationen (3.41-3.43)
 1. Big Table und HBase (3.3, 3.4, 3.39, 3.40)
@@ -77,7 +77,7 @@ Bitte die folgenden Literaturempfehlungen als Startpunkt für eigene Recherchen 
 1. Berlin Open Data, <http://daten.berlin.de/>
 1. New York Open Data, <http://www.nyc.gov/html/data/about.html>
 1. Alex Howard, Data for Public Good, <http://strata.oreilly.com/2012/02/data-public-good.html>, O'Reilly, 2012
-
+1. Jonathan Gray, Liliana Bounegru, Lucy Chambers (editors), The Data Journalism Handbook,  <http://datajournalismhandbook.org/>, 2012
 
 ### 2. Cloud Computing
 1. Peter Mell and Tim Grance. The NIST Definition of Cloud Computing, <http://csrc.nist.gov/groups/SNS/cloud-computing/>
@@ -96,7 +96,7 @@ Bitte die folgenden Literaturempfehlungen als Startpunkt für eigene Recherchen 
 1. Sriram Krishnan, Programming Windows Azure, O'Reilly, 2010.
 1. Thorsten Claus, Daniel Kellmereit, Yasmin Narielvala, The Future of Cloud,
 <http://thefutureofcloud.com/>
-1. Jonathan Gray, Liliana Bounegru, Lucy Chambers (editors), The Data Journalism Handbook, 2012 <http://datajournalismhandbook.org/>
+
 
 ### 3. Big Data
 
