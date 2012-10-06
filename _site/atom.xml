@@ -4,13 +4,41 @@
  <title>Big Data und Large Scale Systems</title>
  <link href="http://drelu.github.com/bigdata//atom.xml" rel="self"/>
  <link href="http://drelu.github.com/bigdata/"/>
- <updated>2012-10-06T19:09:38+02:00</updated>
+ <updated>2012-10-06T21:39:16+02:00</updated>
  <id>http://drelu.github.com/bigdata/</id>
  <author>
    <name>Andre Luckow</name>
    <email>luckow@hm.edu</email>
  </author>
 
+ 
+ <entry>
+   <title>Terminplan und Themen</title>
+   <link href="http://drelu.github.com/bigdata//2012/10/06/themenvergabe"/>
+   <updated>2012-10-06T00:00:00+02:00</updated>
+   <id>http://drelu.github.com/bigdata//2012/10/06/themenvergabe</id>
+   <content type="html">&lt;p&gt;Anbei der vorläufige Terminplan mit den vergebenen Themen. Bitte beachten Sie, dass am 02.11., 16.11, 23.11 und 30.11.2012 die Veranstaltung um 13:30 Uhr beginnt.&lt;/p&gt;
+&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;strong&gt;Datum&lt;/strong&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;strong&gt;Bearbeiter&lt;/strong&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;strong&gt;Thema&lt;/strong&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;tr&gt;&lt;td style='white-space:nowrap;vertical-align:top;'&gt;26.10.2012, 15:15 Uhr&amp;nbsp;&amp;nbsp;&lt;/td&gt;&lt;td style='white-space:nowrap;vertical-align:top;'&gt;Janine Holß           &lt;/td&gt;&lt;td&gt;Open Data and Government                                   &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style='white-space:nowrap;vertical-align:top;'&gt;26.10.2012, 15:15 Uhr            &lt;/td&gt;&lt;td style='white-space:nowrap;vertical-align:top;'&gt;Trong-Phuoc Dao       &lt;/td&gt;&lt;td&gt;MapReduce und Hadoop: HDFS und Hadoop MapReduce Framework  &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style='white-space:nowrap;vertical-align:top;'&gt;02.11.2012, 13:30 Uhr            &lt;/td&gt;&lt;td style='white-space:nowrap;vertical-align:top;'&gt;Wolfram Brackebusch   &lt;/td&gt;&lt;td&gt;Big Table und HBase                                        &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style='white-space:nowrap;vertical-align:top;'&gt;02.11.2012, 13:30 Uhr            &lt;/td&gt;&lt;td style='white-space:nowrap;vertical-align:top;'&gt;Christoph Schweiggart &lt;/td&gt;&lt;td&gt;Hadoop Ecosystem: Distributionen und Tools                 &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style='white-space:nowrap;vertical-align:top;'&gt;09.11.2012, 15:15 Uhr            &lt;/td&gt;&lt;td style='white-space:nowrap;vertical-align:top;'&gt;Artur Lutz            &lt;/td&gt;&lt;td&gt;Hadoop 2.0: Yarn                                           &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style='white-space:nowrap;vertical-align:top;'&gt;16.11.2012, 13:30 Uhr            &lt;/td&gt;&lt;td style='white-space:nowrap;vertical-align:top;'&gt;Christian Posselt     &lt;/td&gt;&lt;td&gt;In-Memory Databases                                        &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style='white-space:nowrap;vertical-align:top;'&gt;16.11.2012, 13:30 Uhr            &lt;/td&gt;&lt;td style='white-space:nowrap;vertical-align:top;'&gt;Michael Blieninger    &lt;/td&gt;&lt;td&gt;Stream Processing (Twitter Storm, Infosphere Streams)      &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style='white-space:nowrap;vertical-align:top;'&gt;23.11.2012, 13:30 Uhr            &lt;/td&gt;&lt;td style='white-space:nowrap;vertical-align:top;'&gt;Jens Franken          &lt;/td&gt;&lt;td&gt;CAP Theorem and Eventual Consistency                       &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style='white-space:nowrap;vertical-align:top;'&gt;23.11.2012, 13:30 Uhr            &lt;/td&gt;&lt;td style='white-space:nowrap;vertical-align:top;'&gt;Simon Effenberg       &lt;/td&gt;&lt;td&gt;Amazon und Big Data: Elastic Map Reduce, SimpleDB, DynamoDB&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style='white-space:nowrap;vertical-align:top;'&gt;30.11.2012, 13:30 Uhr            &lt;/td&gt;&lt;td style='white-space:nowrap;vertical-align:top;'&gt;Martina Maria Kerndl  &lt;/td&gt;&lt;td&gt;Google Infrastruktur: Pregel und Dremel                    &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style='white-space:nowrap;vertical-align:top;'&gt;30.11.2012, 13:30 Uhr            &lt;/td&gt;&lt;td style='white-space:nowrap;vertical-align:top;'&gt;Nadin Roming          &lt;/td&gt;&lt;td&gt;Google Filesystem Evolution: GFS, Megastore und Spanner    &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style='white-space:nowrap;vertical-align:top;'&gt;07.12.2012, 15:15 Uhr            &lt;/td&gt;&lt;td style='white-space:nowrap;vertical-align:top;'&gt;Beate Fey             &lt;/td&gt;&lt;td&gt;Natural Language Processing                                &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style='white-space:nowrap;vertical-align:top;'&gt;07.12.2012, 15:15 Uhr            &lt;/td&gt;&lt;td style='white-space:nowrap;vertical-align:top;'&gt;Andreas Schwab        &lt;/td&gt;&lt;td&gt;Datenvisualisierungen                                      &lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</content>
+ </entry>
  
  <entry>
    <title>Willkommen zum FWP Fach: Big Data und Large Scale Systeme</title>

@@ -56,7 +56,7 @@ Vielen Dank gilt dabei der Firma Amazon, welche diesen Kurs im Rahmen ihres Educ
 1. Einführung Machine Learning (4.9, 4.10)
 1. Machine Learning mit Apache Mahout (4.1,4.2)
 1. Natural Language Processing (4.6, 4.7)
-1. Datenvisualisierungen und Storytelling (5.1-5.5)
+1. Datenvisualisierungen (5.1-5.5, 1.12)
 
 
 ## Literatur
