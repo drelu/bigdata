@@ -33,12 +33,10 @@ except ImportError:
 import __builtin__
 
 def map(line):
-    words = line.split()
-    for word in words:
-        emit(word, str(1))
+    pass
     
 def reduce(key, values):
-    emit(key, str(sum(__builtin__.map(int,values))))
+    pass
 
 # Common library code follows:
 
