@@ -46,7 +46,7 @@ Vielen Dank gilt dabei der Firma Amazon, welche diesen Kurs im Rahmen ihres Educ
 1. Hadoop 2.0: Yarn (3.4, 3.5)
 1. In-Memory Databases (3.20)
 1. Analytical Databases: Greenplum (3.31, 3.35)
-1. Stream Processing (Twitter Storm, Infosphere Streams) (3.24-3.26)
+1. Stream Processing (Twitter Storm, Infosphere Streams) (3.24-3.26, 3.45)
 1. CAP Theorem and Eventual Consistency (3.21-3.23)
 1. Fehlertoleranz in Verteilten Systemen: Quorum Protokolle, Apache Zookeeper (3.19, 3.27)
 1. Amazon und Big Data: Elastic Map Reduce, SimpleDB, DynamoDB (3.11, 3.16, 3.21)
@@ -155,6 +155,7 @@ Jean-Michel Leon, Yawei Li, Alexander Lloyd, Vadim Yushprakh, Megastore: Providi
 1. Lawrence Page and Sergey Brin and Rajeev Motwani and Terry Winograd, The PageRank Citation Ranking: Bringing Order to the Web, Stanford Technical Report, <http://ilpubs.stanford.edu:8090/422/>, 1999
 1. M. Schatz, CloudBurst: Highly Sensitive Short Read Mapping with MapReduce, <http://sourceforge.net/apps/mediawiki/cloudburst-bio/index.php?title=CloudBurst>, 2009 
 1. Apache Drill, <http://www.slideshare.net/jasonfrantz/drill-bay-area-hug-20120919/13>
+1. Apache Flume, <http://flume.apache.org/>
 
 ### 4. Machine Learning
 1. Apache Mahout, <http://mahout.apache.org>
