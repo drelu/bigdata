@@ -22,7 +22,7 @@ published: false
 
 # Umgang mit SSH und Linux
 
-1. Loggen Sie sich mit SSH auf der Linux VM ein!
+1. Loggen Sie sich mit SSH auf der Linux VM ein! Ändern Sie ihr Passwort!
 
 1. Beantworten Sie folgende Fragen:
     * Wie viele User sind aktuell auf dem Server angelegt? Wie viele sind derzeit angemeldet?
