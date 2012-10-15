@@ -25,7 +25,6 @@ Veranstaltung um 13:30 Uhr beginnt.
 <tr><td style="white-space:nowrap;vertical-align:top;">16.11.2012, 13:30 Uhr            </td><td style="white-space:nowrap;vertical-align:top;">Michael Blieninger    </td><td>Stream Processing (Twitter Storm, Infosphere Streams)      </td></tr>
 <tr><td style="white-space:nowrap;vertical-align:top;">23.11.2012, 13:30 Uhr            </td><td style="white-space:nowrap;vertical-align:top;">Jens Franken          </td><td>CAP Theorem and Eventual Consistency                       </td></tr>
 <tr><td style="white-space:nowrap;vertical-align:top;">23.11.2012, 13:30 Uhr            </td><td style="white-space:nowrap;vertical-align:top;">Simon Effenberg       </td><td>Amazon und Big Data: Elastic Map Reduce, SimpleDB, DynamoDB</td></tr>
-<tr><td style="white-space:nowrap;vertical-align:top;">30.11.2012, 13:30 Uhr            </td><td style="white-space:nowrap;vertical-align:top;">Martina Maria Kerndl  </td><td>Google Infrastruktur: Pregel und Dremel                    </td></tr>
 <tr><td style="white-space:nowrap;vertical-align:top;">30.11.2012, 13:30 Uhr            </td><td style="white-space:nowrap;vertical-align:top;">Nadin Roming          </td><td>Google 
 Filesystem Evolution: GFS, Megastore und Spanner    </td></tr>
 <tr><td style="white-space:nowrap;vertical-align:top;">30.11.2012, 13:30 Uhr            </td><td style="white-space:nowrap;vertical-align:top;">Michaela Jaeger       </td><td>Google and Big Data: Google App Engine Map Reduce, Big Query, Prediction API</td></tr>
