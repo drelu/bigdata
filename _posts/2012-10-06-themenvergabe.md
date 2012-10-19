@@ -18,7 +18,7 @@ Veranstaltung um 13:30 Uhr beginnt.
 	</tr>
 <tr><td style="white-space:nowrap;vertical-align:top;">26.10.2012, 15:15 Uhr&nbsp;&nbsp;</td><td style="white-space:nowrap;vertical-align:top;">Janine Holß           </td><td>Open Data and Government                                   </td></tr>
 <tr><td style="white-space:nowrap;vertical-align:top;">26.10.2012, 15:15 Uhr            </td><td style="white-space:nowrap;vertical-align:top;">Trong-Phuoc Dao       </td><td>MapReduce und Hadoop: HDFS und Hadoop MapReduce Framework  </td></tr>
-<tr><td style="white-space:nowrap;vertical-align:top;">02.11.2012, 13:30 Uhr            </td><td style="white-space:nowrap;vertical-align:top;">Christoph Schweiggart </td><td>Hadoop Ecosystem: Distributionen und Tools                 </td></tr>
+<tr><td style="white-space:nowrap;vertical-align:top;">02.11.2012, 13:30 Uhr            </td><td style="white-space:nowrap;vertical-align:top;"> </td><td>Vorlesung und Übung </td></tr>
 <tr><td style="white-space:nowrap;vertical-align:top;">09.11.2012, 15:15 Uhr            </td><td style="white-space:nowrap;vertical-align:top;">Artur Lutz            </td><td>Hadoop 2.0: Yarn                                           </td></tr>
 <tr><td style="white-space:nowrap;vertical-align:top;">09.11.2012, 15:15 Uhr            </td><td style="white-space:nowrap;vertical-align:top;">Felix Kuhn            </td><td>Analytical Databases: Greenplum                            </td></tr>
 <tr><td style="white-space:nowrap;vertical-align:top;">16.11.2012, 13:30 Uhr            </td><td style="white-space:nowrap;vertical-align:top;">Christian Posselt     </td><td>In-Memory Databases                                        </td></tr>
