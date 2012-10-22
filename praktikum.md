@@ -51,3 +51,18 @@ published: false
 	* Tweetstream Package: <http://pypi.python.org/pypi/tweetstream>
 
 <br/>
+
+# Datenanalyse mit Kommando-Zeile und Python
+<br/>  
+
+Notwendige Daten/Tools
+* <http://ita.ee.lbl.gov/html/contrib/NASA-HTTP.html>
+* Commandline data tools <https://github.com/bitly/data_hacks>
+* Daten: `cloud.luckow-hm.de:/data/NASA_access_log_Jul95`
+
+<br/> 
+
+1. Nutzen die Kommandos `head`, `cat`, `uniq`, `wc`, `sort`, `find`, `xargs`, `awk` um die NASA Access Logs auszuwerten:
+    1. Welche Seiten wurden am meisten angesurft?
+ 	1. Welcher Fehler trat am Meisten auf?
+	1. Wie viele HTTP Fehler gab es insgesamt? Wieviel Prozent der Requests wurden mit einem Fehler beendet.
