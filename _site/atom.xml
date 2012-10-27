@@ -4,7 +4,7 @@
  <title>Big Data und Large Scale Systems</title>
  <link href="http://drelu.github.com/bigdata//atom.xml" rel="self"/>
  <link href="http://drelu.github.com/bigdata/"/>
- <updated>2012-10-19T21:26:02+02:00</updated>
+ <updated>2012-10-27T19:11:50+02:00</updated>
  <id>http://drelu.github.com/bigdata/</id>
  <author>
    <name>Andre Luckow</name>
@@ -24,10 +24,10 @@
 		&lt;td&gt;&lt;strong&gt;Bearbeiter&lt;/strong&gt;&lt;/td&gt;
 		&lt;td&gt;&lt;strong&gt;Thema&lt;/strong&gt;&lt;/td&gt;
 	&lt;/tr&gt;
-&lt;tr&gt;&lt;td style='white-space:nowrap;vertical-align:top;'&gt;26.10.2012, 15:15 Uhr&amp;nbsp;&amp;nbsp;&lt;/td&gt;&lt;td style='white-space:nowrap;vertical-align:top;'&gt;Janine Holß           &lt;/td&gt;&lt;td&gt;Open Data and Government                                   &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style='white-space:nowrap;vertical-align:top;'&gt;26.10.2012, 15:15 Uhr&amp;nbsp;&amp;nbsp;&lt;/td&gt;&lt;td style='white-space:nowrap;vertical-align:top;'&gt;Janine Hoiß           &lt;/td&gt;&lt;td&gt;Open Data and Government                                   &lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td style='white-space:nowrap;vertical-align:top;'&gt;26.10.2012, 15:15 Uhr            &lt;/td&gt;&lt;td style='white-space:nowrap;vertical-align:top;'&gt;Trong-Phuoc Dao       &lt;/td&gt;&lt;td&gt;MapReduce und Hadoop: HDFS und Hadoop MapReduce Framework  &lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td style='white-space:nowrap;vertical-align:top;'&gt;02.11.2012, 13:30 Uhr            &lt;/td&gt;&lt;td style='white-space:nowrap;vertical-align:top;'&gt; &lt;/td&gt;&lt;td&gt;Vorlesung und Übung &lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td style='white-space:nowrap;vertical-align:top;'&gt;09.11.2012, 15:15 Uhr            &lt;/td&gt;&lt;td style='white-space:nowrap;vertical-align:top;'&gt;Artur Lutz            &lt;/td&gt;&lt;td&gt;Hadoop 2.0: Yarn                                           &lt;/td&gt;&lt;/tr&gt;
+&lt;!--tr&gt;&lt;td style=&quot;white-space:nowrap;vertical-align:top;&quot;&gt;09.11.2012, 15:15 Uhr            &lt;/td&gt;&lt;td style=&quot;white-space:nowrap;vertical-align:top;&quot;&gt;Artur Lutz            &lt;/td&gt;&lt;td&gt;Hadoop 2.0: Yarn                                           &lt;/td&gt;&lt;/tr--&gt;
 &lt;tr&gt;&lt;td style='white-space:nowrap;vertical-align:top;'&gt;09.11.2012, 15:15 Uhr            &lt;/td&gt;&lt;td style='white-space:nowrap;vertical-align:top;'&gt;Felix Kuhn            &lt;/td&gt;&lt;td&gt;Analytical Databases: Greenplum                            &lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td style='white-space:nowrap;vertical-align:top;'&gt;16.11.2012, 13:30 Uhr            &lt;/td&gt;&lt;td style='white-space:nowrap;vertical-align:top;'&gt;Christian Posselt     &lt;/td&gt;&lt;td&gt;In-Memory Databases                                        &lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td style='white-space:nowrap;vertical-align:top;'&gt;16.11.2012, 13:30 Uhr            &lt;/td&gt;&lt;td style='white-space:nowrap;vertical-align:top;'&gt;Michael Blieninger    &lt;/td&gt;&lt;td&gt;Stream Processing (Twitter Storm, Infosphere Streams)      &lt;/td&gt;&lt;/tr&gt;
