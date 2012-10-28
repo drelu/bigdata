@@ -71,12 +71,12 @@ Notwendige Daten/Tools
 	
 # 4. MapReduce-basierte Log-Dateien Auswertung
 
-Informationen:
+*Informationen:*
 * Hadoop Dokumentation: <http://hadoop.apache.org/docs/r1.0.3/>
 * Hadoop Help Pages:
 
-    hadoop fs -help 
-    hadoop jar $HADOOP_HOME/contrib/streaming/hadoop-streaming-2.0.0-mr1-cdh4.1.1.jar -info
+        hadoop fs -help 
+        hadoop jar $HADOOP_HOME/contrib/streaming/hadoop-streaming-2.0.0-mr1-cdh4.1.1.jar -info
 
 * Hadoop Web Schnittstellen:
     * Namenode: lynx http://localhost:50070
@@ -85,6 +85,8 @@ Informationen:
 * Hadoop Streaming Bibliothek: 
 `/usr/lib/hadoop-0.20-mapreduce/contrib/streaming/hadoop-streaming-2.0.0-mr1-cdh4.1.1.jar`
 * Input Daten: `cloud.luckow-hm.de:/data/NASA_access_log_Jul95`
+
+<br/>
 
 1. Nutzen Sie das MapReduce Programmiermodell, um die Statistiken auf Aufgabe 3 
 zu erfolgen. Nutzen Sie das folgende [Python-Skript](src/map_reduce.py) als 
