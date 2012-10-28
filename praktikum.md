@@ -20,7 +20,7 @@ published: false
 
 <br/>
 
-# Umgang mit SSH und Linux
+# 1. Umgang mit SSH und Linux
 
 1. Loggen Sie sich mit SSH auf der Linux VM ein! Ändern Sie ihr Passwort!
 
@@ -35,7 +35,7 @@ published: false
 
 <br/>
 
-# RESTful Cloud APIs am Beispiel von Twitter
+# 2. RESTful Cloud APIs am Beispiel von Twitter
 
 1. Erstellen Sie in einer Programmiersprache ihre Wahl einen Twitter Client. Der Client soll:
 	* die aktuelle Public Timeline und 
@@ -52,7 +52,7 @@ published: false
 
 <br/>
 
-# Datenanalyse mit Kommando-Zeile und Python
+# 3. Datenanalyse mit Kommando-Zeile und Python
 <br/>  
 
 Notwendige Daten/Tools
@@ -66,3 +66,39 @@ Notwendige Daten/Tools
     1. Welche Seiten wurden am meisten angesurft?
  	1. Welcher Fehler trat am Meisten auf?
 	1. Wie viele HTTP Fehler gab es insgesamt? Wieviel Prozent der Requests wurden mit einem Fehler beendet.
+
+<br/> 
+	
+# 4. MapReduce-basierte Log-Dateien Auswertung
+
+Informationen:
+* Hadoop Dokumentation: <http://hadoop.apache.org/docs/r1.0.3/>
+* Hadoop Help Pages:
+
+    hadoop fs -help 
+    hadoop jar $HADOOP_HOME/contrib/streaming/hadoop-streaming-2.0.0-mr1-cdh4.1.1.jar -info
+
+* Hadoop Web Schnittstellen:
+    * Namenode: lynx http://localhost:50070
+    * Jobtracker: lynx http://localhost:50030
+* Hadoop Home: `/usr/lib/hadoop-0.20-mapreduce/`
+* Hadoop Streaming Bibliothek: 
+`/usr/lib/hadoop-0.20-mapreduce/contrib/streaming/hadoop-streaming-2.0.0-mr1-cdh4.1.1.jar`
+* Input Daten: `cloud.luckow-hm.de:/data/NASA_access_log_Jul95`
+
+1. Nutzen Sie das MapReduce Programmiermodell, um die Statistiken auf Aufgabe 3 
+zu erfolgen. Nutzen Sie das folgende [Python-Skript](src/map_reduce.py) als 
+Template! Testen Sie das Skript:
+
+        cat <input file> | python map_reduce.py map | sort | python map_reduce.py reduce
+
+1. Machen Sie sich mit dem Hadoop Dateisystem vertraut! Laden Sie die Eingabedateien für den 
+MapReduce Job in das Hadoop Filesystem (auf `cloud.luckow-hm.de`). Kopieren Sie die Eingabedateien 
+in ein Verzeichnis `input` in ihrem HDFS Home Verzeichnis!
+	
+1. Lassen Sie ihr erstelltes Auswertungsskript mit Hadoop laufen. Beobachten Sie die Ausführungen: Wie viele Map Tasks werden generiert? Wie viel Map Slots belegt die Applikation?
+
+1. Vergleichen Sie die Laufzeiten der lokalen Ausführung mit der Hadoop Variante. Erlären Sie den Unterschied!
+
+
+
