@@ -79,8 +79,10 @@ Notwendige Daten/Tools
         hadoop jar $HADOOP_HOME/contrib/streaming/hadoop-streaming-2.0.0-mr1-cdh4.1.1.jar -info
 
 * Hadoop Web Schnittstellen:
-    * Namenode: lynx http://localhost:50070
-    * Jobtracker: lynx http://localhost:50030
+
+    * Namenode: `lynx http://localhost:50070`
+    * Jobtracker: `lynx http://localhost:50030`
+
 * Hadoop Home: `/usr/lib/hadoop-0.20-mapreduce/`
 * Hadoop Streaming Bibliothek: 
 `/usr/lib/hadoop-0.20-mapreduce/contrib/streaming/hadoop-streaming-2.0.0-mr1-cdh4.1.1.jar`
@@ -95,8 +97,8 @@ Template! Testen Sie das Skript:
         cat <input file> | python map_reduce.py map | sort | python map_reduce.py reduce
 
 1. Machen Sie sich mit dem Hadoop Dateisystem vertraut! Laden Sie die Eingabedateien für den 
-MapReduce Job in das Hadoop Filesystem (auf `cloud.luckow-hm.de`). Kopieren Sie die Eingabedateien 
-in ein Verzeichnis `input` in ihrem HDFS Home Verzeichnis!
+MapReduce Job in das Hadoop Filesystem (auf `cloud.luckow-hm.de`). Legen Sie dazu 
+ein neues Verzeichnis `input` in ihrem HDFS Home Verzeichnis an!
 	
 1. Lassen Sie ihr erstelltes Auswertungsskript mit Hadoop laufen. Beobachten Sie die Ausführungen: Wie viele Map Tasks werden generiert? Wie viel Map Slots belegt die Applikation?
 
