@@ -1,0 +1,273 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Praktikum</title>
+    <meta name="description" content="">
+    <meta name="author" content="Andre Luckow">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="/assets/themes/twitter/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/themes/twitter/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+
+    <!-- Le fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+  </head>
+
+  <body>
+
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="/">Big Data und Large Scale Systems</a>
+          <ul class="nav">
+            
+            
+            
+
+
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/contact.html">Kontakt</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/pages.sv">Pages</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+
+
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="content">
+        
+<div class="page-header">
+  <!--h1>Praktikum </h1-->
+  <h1>Praktikum </h1>
+</div>
+
+<div class="row">
+  <div class="span12">
+    <h1 id='infrastruktur'>Infrastruktur</h1>
+
+<ul>
+<li>
+<p>Linux Cluster hosted at Amazon EC2</p>
+</li>
+
+<li>
+<p>Ubuntu 12.04</p>
+</li>
+
+<li>
+<p>Python 2.7.3, Python Dokumentation: <a href='http://docs.python.org/'>http://docs.python.org/</a></p>
+</li>
+
+<li>
+<p>Hostname: <code>cloud.luckow-hm.de</code> <!--* Amazon Console: <https://bigdata.signin.aws.amazon.com/console>--></p>
+</li>
+
+<li>
+<p><a href='http://netzmafia.de/skripten/unix/index.html'>Netzmafia Einführung Linux</a></p>
+</li>
+
+<li>
+<p>User werden beim ersten Praktikum am 12.10.2012 vergeben!</p>
+</li>
+</ul>
+<br />
+<h1 id='1_umgang_mit_ssh_und_linux'>1. Umgang mit SSH und Linux</h1>
+
+<ol>
+<li>
+<p>Loggen Sie sich mit SSH auf der Linux VM ein! Ändern Sie ihr Passwort!</p>
+</li>
+
+<li>
+<p>Beantworten Sie folgende Fragen:</p>
+
+<ul>
+<li>Wie viele User sind aktuell auf dem Server angelegt? Wie viele sind derzeit angemeldet?</li>
+
+<li>Wie viel Plattenspeicher ist verfügbar?</li>
+
+<li>Wann wurde der Rechner das letzte Mal gestartet?</li>
+
+<li>Welcher Prozess hat aktuell den höchsten CPU/Speicher Verbrauch?</li>
+</ul>
+</li>
+
+<li>
+<p>Gehen Sie durch das Python Tutorial: * http://docs.python.org/tutorial/introduction.html</p>
+</li>
+</ol>
+<br />
+<h1 id='2_restful_cloud_apis_am_beispiel_von_twitter'>2. RESTful Cloud APIs am Beispiel von Twitter</h1>
+
+<ol>
+<li>
+<p>Erstellen Sie in einer Programmiersprache ihre Wahl einen Twitter Client. Der Client soll:</p>
+
+<ul>
+<li>die aktuelle Public Timeline und</li>
+
+<li>in der Nähe gepostet Tweets</li>
+</ul>
+
+<p>anzeigen können.</p>
+</li>
+
+<li>
+<p>Zusatzaufgabe: Nutzen Sie eine OAuth Bibliothek, um User gegenüber Twitter authentisieren und autorisieren.</p>
+
+<p>Material:</p>
+
+<ul>
+<li>Twitter Developer Site, <a href='http://dev.twitter.com/'>http://dev.twitter.com/</a></li>
+
+<li>Twitter Streaming API Präsentation, <a href='http://www.slideshare.net/jkalucki/thinking-in-streaming-twitter-streaming-api'>http://www.slideshare.net/jkalucki/thinking-in-streaming-twitter-streaming-api</a></li>
+
+<li>Tweetstream Package: <a href='http://pypi.python.org/pypi/tweetstream'>http://pypi.python.org/pypi/tweetstream</a></li>
+</ul>
+</li>
+</ol>
+<br />
+<h1 id='3_datenanalyse_mit_kommandozeile_und_python'>3. Datenanalyse mit Kommando-Zeile und Python</h1>
+<br />
+<p>Notwendige Daten/Tools</p>
+
+<ul>
+<li><a href='http://ita.ee.lbl.gov/html/contrib/NASA-HTTP.html'>http://ita.ee.lbl.gov/html/contrib/NASA-HTTP.html</a></li>
+
+<li>Commandline data tools <a href='https://github.com/bitly/data_hacks'>https://github.com/bitly/data_hacks</a></li>
+
+<li>Daten: <code>cloud.luckow-hm.de:/data/NASA_access_log_Jul95</code></li>
+</ul>
+<br />
+<ol>
+<li>
+<p>Nutzen die Kommandos <code>head</code>, <code>cat</code>, <code>uniq</code>, <code>wc</code>, <code>sort</code>, <code>find</code>, <code>xargs</code>, <code>awk</code> um die NASA Access Logs auszuwerten:</p>
+
+<ol>
+<li>Welche Seiten wurden am meisten angesurft?</li>
+
+<li>Welcher Fehler trat am Meisten auf?</li>
+
+<li>Wie viele HTTP Fehler gab es insgesamt? Wieviel Prozent der Requests wurden mit einem Fehler beendet.</li>
+</ol>
+</li>
+</ol>
+<br />
+<h1 id='4_mapreducebasierte_logdateien_auswertung'>4. MapReduce-basierte Log-Dateien Auswertung</h1>
+<br />
+<p><em>Informationen:</em></p>
+
+<ul>
+<li>
+<p>Hadoop Dokumentation: <a href='http://hadoop.apache.org/docs/r1.0.3/'>http://hadoop.apache.org/docs/r1.0.3/</a></p>
+</li>
+
+<li>
+<p>Hadoop Help Pages:</p>
+
+<pre><code>  hadoop fs -help 
+  hadoop jar $HADOOP_HOME/contrib/streaming/hadoop-streaming-2.0.0-mr1-cdh4.1.1.jar -info</code></pre>
+</li>
+
+<li>
+<p>Hadoop Web Schnittstellen:</p>
+
+<p>* Namenode: <code>lynx http://localhost:50070</code></p>
+
+<p>* Jobtracker: <code>lynx http://localhost:50030</code></p>
+</li>
+
+<li>
+<p>Hadoop Home: <code>/usr/lib/hadoop-0.20-mapreduce/</code></p>
+</li>
+
+<li>
+<p>Hadoop Streaming Bibliothek: <code>/usr/lib/hadoop-0.20-mapreduce/contrib/streaming/hadoop-streaming-2.0.0-mr1-cdh4.1.1.jar</code></p>
+</li>
+
+<li>
+<p>Input Daten: <code>cloud.luckow-hm.de:/data/NASA_access_log_Jul95</code></p>
+</li>
+</ul>
+<br /><br />
+<ol>
+<li>
+<p>Nutzen Sie das MapReduce Programmiermodell, um die Statistiken auf Aufgabe 3 zu erfolgen. Nutzen Sie das folgende <a href='src/map_reduce.py'>Python-Skript</a> als Template! Testen Sie das Skript:</p>
+
+<pre><code> cat &lt;input file&gt; | python map_reduce.py map | sort | python map_reduce.py reduce</code></pre>
+</li>
+
+<li>
+<p>Machen Sie sich mit dem Hadoop Dateisystem vertraut! Laden Sie die Eingabedateien für den MapReduce Job in das Hadoop Filesystem (auf <code>cloud.luckow-hm.de</code>). Legen Sie dazu ein neues Verzeichnis <code>input</code> in ihrem HDFS Home Verzeichnis an!</p>
+</li>
+
+<li>
+<p>Lassen Sie ihr erstelltes Auswertungsskript mit Hadoop laufen. Beobachten Sie die Ausführungen: Wie viele Map Tasks werden generiert? Wie viel Map Slots belegt die Applikation?</p>
+</li>
+
+<li>
+<p>Vergleichen Sie die Laufzeiten der lokalen Ausführung mit der Hadoop Variante. Erlären Sie den Unterschied!</p>
+</li>
+</ol>
+  </div>
+</div>
+
+
+      </div>
+
+      <footer>
+        <p>&copy; Andre Luckow 2012</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    
+  </body>
+</html>
+
