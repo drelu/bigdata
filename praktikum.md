@@ -71,7 +71,9 @@ Notwendige Daten/Tools
 	
 # 4. MapReduce-basierte Log-Dateien Auswertung
 <br/> 
+
 *Informationen:*
+
 * Hadoop Dokumentation: <http://hadoop.apache.org/docs/r1.0.3/>
 * Hadoop Help Pages:
 
