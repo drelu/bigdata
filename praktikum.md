@@ -70,8 +70,8 @@ Notwendige Daten/Tools
 <br/> 
 	
 # 4. MapReduce-basierte Log-Dateien Auswertung
-
-Informationen:
+<br/> 
+*Informationen:*
 * Hadoop Dokumentation: <http://hadoop.apache.org/docs/r1.0.3/>
 * Hadoop Help Pages:
 
@@ -81,6 +81,7 @@ Informationen:
 * Hadoop Web Schnittstellen:
 
     * Namenode: `lynx http://localhost:50070`
+
     * Jobtracker: `lynx http://localhost:50030`
 
 * Hadoop Home: `/usr/lib/hadoop-0.20-mapreduce/`
