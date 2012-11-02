@@ -59,7 +59,6 @@ Notwendige Daten/Tools
 * <http://ita.ee.lbl.gov/html/contrib/NASA-HTTP.html>
 * Commandline data tools <https://github.com/bitly/data_hacks>
 * Daten: `cloud.luckow-hm.de:/data/NASA_access_log_Jul95`
-* [Introduction to Hadoop](http://cdn.oreillystatic.com/en/assets/1/event/85/An%20Introduction%20to%20Hadoop%20Presentation.pdf)
 <br/> 
 
 1. Nutzen die Kommandos `head`, `cat`, `uniq`, `wc`, `sort`, `find`, `xargs`, `awk` um die NASA Access Logs auszuwerten:
@@ -94,6 +93,7 @@ Notwendige Daten/Tools
 * Hadoop Streaming Bibliothek: 
 `/usr/lib/hadoop-0.20-mapreduce/contrib/streaming/hadoop-streaming-2.0.0-mr1-cdh4.1.1.jar`
 * Input Daten: `cloud.luckow-hm.de:/data/NASA_access_log_Jul95`
+* [Introduction to Hadoop](http://cdn.oreillystatic.com/en/assets/1/event/85/An%20Introduction%20to%20Hadoop%20Presentation.pdf)
 
 <br/>
 <br/>
