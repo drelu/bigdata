@@ -67,6 +67,10 @@ Notwendige Daten/Tools
  	1. Welcher Fehler trat am Meisten auf?
 	1. Wie viele HTTP Fehler gab es insgesamt? Wieviel Prozent der Requests wurden mit einem Fehler beendet.
 
+*Lösung*
+
+    cat /data/NASA_access_log_Jul95 | awk  '{print $(NF-1)}'| sort | uniq -c
+
 <br/> 
 	
 # 4. MapReduce-basierte Log-Dateien Auswertung
