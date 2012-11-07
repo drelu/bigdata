@@ -112,5 +112,18 @@ ein neues Verzeichnis `input` in ihrem HDFS Home Verzeichnis an!
 
 1. Vergleichen Sie die Laufzeiten der lokalen Ausführung mit der Hadoop Variante. Erlären Sie den Unterschied!
 
+<br/> 
+<br/> 
+# Getting Started mit Amazon EC2 und S3
+<br/> 
+S3 Dokumentation: <http://aws.amazon.com/documentation/s3/>
+EC2 Dokumentation: <http://aws.amazon.com/documentation/ec2/>
 
+1. Konfigurieren Sie die EC2 und S3 Tools mit ihrem Amazon Access und Secret Access Schlüssel!
+
+1. Nutzen Sie `s3cmd`, um eine Datei ihrer Wahl auf S3 hochzuladen! Machen Sie die Datei Public! Prüfen Sie ob Sie die Datei über den Web-Browser erreichen können!
+
+1. Erstellen Sie ein Python Programm unter Nutzung von [Boto](http://docs.pythonboto.org/en/latest/index.html), das `/data` Verzeichnis auf Amazon S3 zu kopieren. Messen Sie die notwendige Zeit und berechnen Sie die Bandbreite!
+
+1. Erstellen Sie EC2 Instanz (Typ: `t1.micro`). Folgen Sie dazu allen notwendigen Schritten (z.B. Erstellung eines Keys). Loggen Sie sich auf dieser mit SSH ein!
 
