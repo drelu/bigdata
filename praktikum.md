@@ -152,7 +152,7 @@ Elastic MapReduce Dokumentation: <http://docs.amazonwebservices.com/ElasticMapRe
         "region": "us-east-1"
     }
 
-TestDFSIO: <http://answers.oreilly.com/topic/460-how-to-benchmark-a-hadoop-cluster/>
+<!--TestDFSIO: <http://answers.oreilly.com/topic/460-how-to-benchmark-a-hadoop-cluster/>-->
 
 1. Starten Sie einen 1 Knoten Hadoop Cluster mit Elastic MapReduce! Nutzen Sie dabei die Optionen `--hive-interactive` und `--alive`! 
 
