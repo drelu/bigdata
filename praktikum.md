@@ -136,3 +136,35 @@ EC2 Dokumentation: <http://aws.amazon.com/documentation/ec2/>
 
 1. Erstellen Sie EC2 Instanz (Typ: `t1.micro`). Folgen Sie dazu allen notwendigen Schritten (z.B. Erstellung eines Keys). Loggen Sie sich auf dieser mit SSH ein!
 
+<br/>
+<br/>
+# Amazon's Elastic MapReduce
+
+Elastic MapReduce Dokumentation: <http://docs.amazonwebservices.com/ElasticMapReduce/latest/GettingStartedGuide/Welcome.html>
+
+    Bitte legen Sie eine Datei `credentials.json`
+    {
+        "access_id": "",
+        "private_key": "",
+        "keypair": "MyKey",
+        "key-pair-file": "<HOME>/.ssh/id_rsa",
+        "log_uri": "s3://emr-drelu-log",
+        "region": "us-east-1"
+    }
+
+TestDFSIO: <http://answers.oreilly.com/topic/460-how-to-benchmark-a-hadoop-cluster/>
+
+1. Starten Sie einen 1 Knoten Hadoop Cluster mit Elastic MapReduce! Nutzen Sie dabei die Optionen `--hive-interactive` und `--alive`! 
+
+1. Loggen Sie sich auf den Master-Knoten ein! Machen Sie sich mit Hadoop vertraut (`hadoop help`)!
+
+1. Testen Sie das HDFS! Wie viel Speicher ist im HDFS verfügbar? 
+
+1. Lassen Sie das Log-File Beispiel aus der vorherigen Übung auf dem Cluster laufen! 
+
+1. Generieren Sie durch kopieren der Daten im HDFS ein Input Datensatz von 10 GB! Messen Sie die Laufzeit auf 1 Knoten!
+
+1. Stoppen Sie den JobFlow und starten Sie einen weiteren Jobflow mit 3 Knoten (d.h. 2 Data Nodes)! Wiederholen Sie das Experiment und messen Sie die Laufzeit! 
+
+1. Legen Sie die gleichen Input Daten auf Amazon S3 ab und wiederholen Sie das Experiment. Erklären Sie das Ergebnis!
+
