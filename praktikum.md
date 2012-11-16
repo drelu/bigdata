@@ -13,7 +13,7 @@ published: false
 * Ubuntu 12.04
 * Python 2.7.3, Python Dokumentation: <http://docs.python.org/>
 * Hostname: `cloud.luckow-hm.de`
-<!--* Amazon Console: <https://bigdata.signin.aws.amazon.com/console>-->
+* Amazon Console: <https://bigdata.signin.aws.amazon.com/console>
 
 * [Netzmafia Einführung Linux](http://netzmafia.de/skripten/unix/index.html)
 * User werden beim ersten Praktikum am 12.10.2012 vergeben!
