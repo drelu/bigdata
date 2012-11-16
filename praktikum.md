@@ -104,8 +104,7 @@ Template! Testen Sie das Skript:
 
         cat <input file> | python map_reduce.py map | sort | python map_reduce.py reduce
 
-*Lösung*
-[Python-Skript](src/nasa.py)
+
 
 1. Machen Sie sich mit dem Hadoop Dateisystem vertraut! Laden Sie die Eingabedateien für den 
 MapReduce Job in das Hadoop Filesystem (auf `cloud.luckow-hm.de`). Legen Sie dazu 
@@ -116,6 +115,9 @@ ein neues Verzeichnis `input` in ihrem HDFS Home Verzeichnis an!
 1. Vergleichen Sie die Laufzeiten der lokalen Ausführung mit der Hadoop Variante. Erlären Sie den Unterschied!
 
 <br/> 
+*Lösung*
+[Python-Skript](src/nasa.py)
+<br/>
 <br/> 
 # 5. Getting Started mit Amazon EC2 und S3
 <br/> 
