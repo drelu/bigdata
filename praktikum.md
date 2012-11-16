@@ -138,8 +138,8 @@ EC2 Dokumentation: <http://aws.amazon.com/documentation/ec2/>
 
 <br/>
 <br/>
-# Amazon's Elastic MapReduce
-
+# 6. Amazon's Elastic MapReduce
+<br/>
 Elastic MapReduce Dokumentation: <http://docs.amazonwebservices.com/ElasticMapReduce/latest/GettingStartedGuide/Welcome.html>
 
     Bitte legen Sie eine Datei `credentials.json`
