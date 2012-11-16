@@ -115,8 +115,10 @@ ein neues Verzeichnis `input` in ihrem HDFS Home Verzeichnis an!
 1. Vergleichen Sie die Laufzeiten der lokalen Ausführung mit der Hadoop Variante. Erlären Sie den Unterschied!
 
 <br/> 
-*Lösung*
+*Lösung*<br/>
+
 [Python-Skript](src/nasa.py)
+
 <br/>
 <br/> 
 # 5. Getting Started mit Amazon EC2 und S3
