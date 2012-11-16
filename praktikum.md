@@ -114,10 +114,12 @@ ein neues Verzeichnis `input` in ihrem HDFS Home Verzeichnis an!
 
 <br/> 
 <br/> 
-# Getting Started mit Amazon EC2 und S3
+# 5. Getting Started mit Amazon EC2 und S3
 <br/> 
 S3 Dokumentation: <http://aws.amazon.com/documentation/s3/>
 EC2 Dokumentation: <http://aws.amazon.com/documentation/ec2/>
+
+*Bitte stellen Sie sicher, dass Sie alle Instanzen am Ende der Vorlesung beenden!*
 
 1. Konfigurieren Sie die EC2 und S3 Tools mit ihrem Amazon Access und Secret Access Schlüssel!
 
