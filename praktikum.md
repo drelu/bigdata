@@ -81,7 +81,7 @@ Notwendige Daten/Tools
 * Hadoop Help Pages:
 
         hadoop fs -help 
-        hadoop jar $HADOOP_HOME/contrib/streaming/hadoop-streaming-2.0.0-mr1-cdh4.1.1.jar -info
+        hadoop jar $HADOOP_HOME/contrib/streaming/hadoop-streaming-2.0.0-mr1-cdh4.1.2.jar -info
 
 * Hadoop Web Schnittstellen:
 
