@@ -28,6 +28,7 @@ Veranstaltung um 13:30 Uhr beginnt.
 <tr><td style="white-space:nowrap;vertical-align:top;">30.11.2012, 13:30 Uhr            </td><td style="white-space:nowrap;vertical-align:top;">Nadin Roming          </td><td>Google 
 Filesystem Evolution: GFS, Megastore und Spanner    </td></tr>
 <tr><td style="white-space:nowrap;vertical-align:top;">30.11.2012, 13:30 Uhr            </td><td style="white-space:nowrap;vertical-align:top;">Michaela Jaeger       </td><td>Google and Big Data: Google App Engine Map Reduce, Big Query, Prediction API</td></tr>
+<tr><td style="white-space:nowrap;vertical-align:top;">30.11.2012, 13:30 Uhr            </td><td style="white-space:nowrap;vertical-align:top;">Gökhan Bay</td><td>Hive, Pig und HCatalog</td></tr>
 <tr><td style="white-space:nowrap;vertical-align:top;">07.12.2012, 15:15 Uhr            </td><td style="white-space:nowrap;vertical-align:top;">Beate Fey             </td><td>Natural Language Processing                                </td></tr>
 <tr><td style="white-space:nowrap;vertical-align:top;">07.12.2012, 15:15 Uhr            </td><td style="white-space:nowrap;vertical-align:top;">Andreas Schwab        </td><td>Datenvisualisierungen                                      </td></tr>
 <tr><td style="white-space:nowrap;vertical-align:top;">11.01.2013, 15:15 Uhr            </td><td style="white-space:nowrap;vertical-align:top;">Matthias Grünecker    </td><td>Einführung in Machine Learning                             </td></tr>
