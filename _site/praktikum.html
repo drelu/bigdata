@@ -105,7 +105,11 @@
 </li>
 
 <li>
-<p>Hostname: <code>cloud.luckow-hm.de</code> <!--* Amazon Console: <https://bigdata.signin.aws.amazon.com/console>--></p>
+<p>Hostname: <code>cloud.luckow-hm.de</code></p>
+</li>
+
+<li>
+<p>Amazon Console: <a href='https://bigdata.signin.aws.amazon.com/console'>https://bigdata.signin.aws.amazon.com/console</a></p>
 </li>
 
 <li>
@@ -182,9 +186,9 @@
 
 <li>Commandline data tools <a href='https://github.com/bitly/data_hacks'>https://github.com/bitly/data_hacks</a></li>
 
-<li>Daten: <code>cloud.luckow-hm.de:/data/NASA_access_log_Jul95</code></li>
+<li>Daten: <code>cloud.luckow-hm.de:/data/NASA_access_log_Jul95</code> <br /></li>
 </ul>
-<br />
+
 <ol>
 <li>
 <p>Nutzen die Kommandos <code>head</code>, <code>cat</code>, <code>uniq</code>, <code>wc</code>, <code>sort</code>, <code>find</code>, <code>xargs</code>, <code>awk</code> um die NASA Access Logs auszuwerten:</p>
@@ -198,6 +202,10 @@
 </ol>
 </li>
 </ol>
+
+<p><em>Lösung</em></p>
+
+<pre><code>cat /data/NASA_access_log_Jul95 | awk  &#39;{print $(NF-1)}&#39;| sort | uniq -c</code></pre>
 <br />
 <h1 id='4_mapreducebasierte_logdateien_auswertung'>4. MapReduce-basierte Log-Dateien Auswertung</h1>
 <br />
@@ -212,7 +220,7 @@
 <p>Hadoop Help Pages:</p>
 
 <pre><code>  hadoop fs -help 
-  hadoop jar $HADOOP_HOME/contrib/streaming/hadoop-streaming-2.0.0-mr1-cdh4.1.1.jar -info</code></pre>
+  hadoop jar $HADOOP_HOME/contrib/streaming/hadoop-streaming-2.0.0-mr1-cdh4.1.2.jar -info</code></pre>
 </li>
 
 <li>
@@ -234,6 +242,10 @@
 <li>
 <p>Input Daten: <code>cloud.luckow-hm.de:/data/NASA_access_log_Jul95</code></p>
 </li>
+
+<li>
+<p><a href='http://cdn.oreillystatic.com/en/assets/1/event/85/An%20Introduction%20to%20Hadoop%20Presentation.pdf'>Introduction to Hadoop</a></p>
+</li>
 </ul>
 <br /><br />
 <ol>
@@ -253,6 +265,100 @@
 
 <li>
 <p>Vergleichen Sie die Laufzeiten der lokalen Ausführung mit der Hadoop Variante. Erlären Sie den Unterschied!</p>
+</li>
+</ol>
+<br />
+<p><em>Lösung</em><br /></p>
+
+<p><a href='src/nasa.py'>Python-Skript</a></p>
+<br /><br />
+<h1 id='5_getting_started_mit_amazon_ec2_und_s3'>5. Getting Started mit Amazon EC2 und S3</h1>
+<br />
+<p>S3 Dokumentation: <a href='http://aws.amazon.com/documentation/s3/'>http://aws.amazon.com/documentation/s3/</a> EC2 Dokumentation: <a href='http://aws.amazon.com/documentation/ec2/'>http://aws.amazon.com/documentation/ec2/</a></p>
+
+<p><em>Bitte stellen Sie sicher, dass Sie alle Instanzen am Ende der Vorlesung beenden!</em></p>
+
+<ol>
+<li>
+<p>Konfigurieren Sie die EC2 und S3 Tools mit ihrem Amazon Access und Secret Access Schlüssel!</p>
+</li>
+
+<li>
+<p>Nutzen Sie <code>s3cmd</code>, um eine Datei ihrer Wahl auf S3 hochzuladen! Machen Sie die Datei Public! Prüfen Sie ob Sie die Datei über den Web-Browser erreichen können!</p>
+</li>
+
+<li>
+<p>Erstellen Sie ein Python Programm unter Nutzung von <a href='http://docs.pythonboto.org/en/latest/index.html'>Boto</a>, das <code>/data</code> Verzeichnis auf Amazon S3 zu kopieren. Messen Sie die notwendige Zeit und berechnen Sie die Bandbreite!</p>
+</li>
+
+<li>
+<p>Erstellen Sie EC2 Instanz (Typ: <code>t1.micro</code>). Folgen Sie dazu allen notwendigen Schritten (z.B. Erstellung eines Keys). Loggen Sie sich auf dieser mit SSH ein!</p>
+</li>
+</ol>
+<br /><br />
+<h1 id='6_amazons_elastic_mapreduce'>6. Amazon&#8217;s Elastic MapReduce</h1>
+<br />
+<p>Elastic MapReduce Dokumentation: <a href='http://docs.amazonwebservices.com/ElasticMapReduce/latest/GettingStartedGuide/Welcome.html'>http://docs.amazonwebservices.com/ElasticMapReduce/latest/GettingStartedGuide/Welcome.html</a></p>
+
+<pre><code>Bitte legen Sie eine Datei `credentials.json`
+{
+    &quot;access_id&quot;: &quot;&quot;,
+    &quot;private_key&quot;: &quot;&quot;,
+    &quot;keypair&quot;: &quot;MyKey&quot;,
+    &quot;key-pair-file&quot;: &quot;&lt;HOME&gt;/.ssh/id_rsa&quot;,
+    &quot;log_uri&quot;: &quot;s3://emr-drelu-log&quot;,
+    &quot;region&quot;: &quot;us-east-1&quot;
+}</code></pre>
+<!--TestDFSIO: <http://answers.oreilly.com/topic/460-how-to-benchmark-a-hadoop-cluster/>-->
+<ol>
+<li>
+<p>Starten Sie einen 1 Knoten Hadoop Cluster mit Elastic MapReduce! Nutzen Sie dabei das Kommandozeilentool <code>elastic-mapreduce</code> und die Optionen <code>--hive-interactive</code> und <code>--alive</code>!</p>
+</li>
+
+<li>
+<p>Loggen Sie sich auf den Master-Knoten ein! Machen Sie sich mit Hadoop vertraut (<code>hadoop help</code>)!</p>
+</li>
+
+<li>
+<p>Testen Sie das HDFS! Wie viel Speicher ist im HDFS verfügbar?</p>
+</li>
+
+<li>
+<p>Lassen Sie das Log-File Beispiel aus der vorherigen Übung auf dem Cluster laufen!</p>
+</li>
+
+<li>
+<p>Generieren Sie durch kopieren der Daten im HDFS ein Input Datensatz von 10 GB! Messen Sie die Laufzeit auf 1 Knoten!</p>
+</li>
+
+<li>
+<p>Stoppen Sie den JobFlow und starten Sie einen weiteren Jobflow mit 3 Knoten (d.h. 2 Data Nodes)! Wiederholen Sie das Experiment und messen Sie die Laufzeit!</p>
+</li>
+
+<li>
+<p>Legen Sie die gleichen Input Daten auf Amazon S3 ab und wiederholen Sie das Experiment. Erklären Sie das Ergebnis!</p>
+</li>
+</ol>
+
+<h1 id='7_hive'>7. Hive</h1>
+<br />
+<p>Hive Dokumentation: <a href='http://hive.apache.org/'>http://hive.apache.org/</a> <br /></p>
+
+<ol>
+<li>
+<p>Starten Sie 1 EMR Jobflow mit 1 Knoten unter Nutzung des Kommandozeilentools <code>elastic-mapreduce</code> (Optionen: <code>--hive-interactive</code> und <code>--alive</code>)!</p>
+</li>
+
+<li>
+<p>Machen Sie sich mit Hive vertraut in dem Sie sich auf der Kommandozeile auf den Master-Knoten des EMR-Clusters einloggen.!</p>
+</li>
+
+<li>
+<p>Erstellen Sie für das National Climate Data Center Datensample eine Hive Tabelle. Laden Sie die Sample-Daten <code>cloud.luckow-hm.de:/data/ncdc/sample.txt</code> in diese Tabelle!</p>
+</li>
+
+<li>
+<p>Erstellen Sie eine SQL Query die die Maximaltemperatur pro Jahr ausgibt! Lassen Sie diese laufen!</p>
 </li>
 </ol>
   </div>

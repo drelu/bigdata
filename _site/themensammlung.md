@@ -121,27 +121,74 @@ Elastic MapReduce Dokumentation: <http://docs.amazonwebservices.com/ElasticMapRe
         "region": "us-east-1"
     }
 
-1. Starten Sie einen 1 Knoten Hadoop Cluster mit Elastic MapReduce!
+TestDFSIO: <http://answers.oreilly.com/topic/460-how-to-benchmark-a-hadoop-cluster/>
 
+1. Starten Sie einen 1 Knoten Hadoop Cluster mit Elastic MapReduce! Nutzen Sie dabei die Optionen `--hive-interactive` und `--alive`! 
 
 1. Loggen Sie sich auf den Master-Knoten ein! Machen Sie sich mit Hadoop vertraut (`hadoop help`)!
 
-
-1. Testen Sie das HDFS! Wie viel Speicher ist im HDFS verfügbar? Laden Sie das Buch "The Outline of Science" ins HDFS!
-
-
-1. Führen Sie den HDFS TestIO Test auf dem Cluster durch!
+1. Testen Sie das HDFS! Wie viel Speicher ist im HDFS verfügbar? 
 
 
-1. Lassen Sie das Word Count Beispiel aus der vorangegangen Übung auf dem Cluster laufen!
-    * <http://hadoop.apache.org/docs/r1.0.3/streaming.html>
+1. Lassen Sie das Log-File Beispiel aus der vorherigen Übung auf dem Cluster laufen! 
+
+1. Generieren Sie durch kopieren der Daten im HDFS ein Input Datensatz von 10 GB! Messen Sie die Laufzeit auf 1 Knoten!
+
+1. Stoppen Sie den JobFlow und starten Sie einen weiteren Jobflow mit 3 Knoten (d.h. 2 Data Nodes)! Wiederholen Sie das Experiment und messen Sie die Laufzeit! 
+
+1. Legen Sie die gleichen Input Daten auf Amazon S3 ab und wiederholen Sie das Experiment. Erklären Sie das Ergebnis!
+
+1. Führen Sie den HDFS TestDFSIO Test auf dem Cluster durch (`hadoop jar hadoop-test-1.0.3.jar`)!
+
+1. Lassen Sie den TeraSort auf einen 8 Knoten Cluster laufen!
+
 
 
 Lösung:
     elastic-mapreduce --create --name "WS2012" --hive-interactive --alive
     elastic-mapreduce --ssh --jobflow j-36V79ZKX2EE00
 
-    hadoop jar /home/hadoop/contrib/streaming/hadoop-streaming-1.0.3.jar -input /user/luckow/ -output /user/luckow/output/ -mapper map.py -reducer reduce.py  -file `pwd`/map_reduce.py -file `pwd`/map.py -file `pwd`/reduce.py
+
+EC2
+/usr/bin/hadoop jar /usr/lib/hadoop-0.20-mapreduce/contrib/streaming/hadoop-streaming-2.0.0-mr1-cdh4.1.2.jar -file nasa.py -input /user/ubuntu/input -output /user/ubuntu/output -mapper "nasa.py map" -reducer "nasa.py reduce"
+
+
+EMR
+elastic-mapreduce --put nasa.py -j j-DNAIWYDJC5WS 
+
+hadoop jar /home/hadoop/contrib/streaming/hadoop-streaming-1.0.3.jar -file nasa.py -input s3://nasa-ws2012 -output s3n://nasa-ws2012/output -mapper "nasa.py map" -reducer "nasa.py reduce"
+
+hadoop jar /home/hadoop/contrib/streaming/hadoop-streaming-1.0.3.jar -file nasa.py -input /user/hadoop/input -output /user/hadoop/output -mapper "nasa.py map" -reducer "nasa.py reduce"
+
+<br/><br/>
+# Hive
+<br/>
+Hive Dokumentation: <http://hive.apache.org/>
+<br/>
+
+1. Starten Sie 1 EMR Jobflow mit 1 Knoten unter Nutzung des Kommandozeilentools `elastic-mapreduce` (Optionen: `--hive-interactive` und `--alive`)!
+
+1. Machen Sie sich mit Hive vertraut in dem Sie sich auf der Kommandozeile auf den Master-Knoten des EMR-Clusters einloggen.!
+
+1. Erstellen Sie für das National Climate Data Center Datensample eine Hive Tabelle. Laden Sie die Sample-Daten `cloud.luckow-hm.de:/data/ncdc/sample.txt` in diese Tabelle!
+
+1. Erstellen Sie eine SQL Query die die Maximaltemperatur pro Jahr ausgibt! Lassen Sie diese laufen!
+
+elastic-mapreduce --create --name "WS2012" --hive-interactive --alive
+elastic-mapreduce -j j-25US0QEGKJI0F --put /data/ncdc/sample.txt 
+elastic-mapreduce --ssh --jobflow j-36V79ZKX2EE00
+
+$ mkdir ncdc
+
+$ hive
+>CREATE TABLE records (year STRING, temperature INT, quality INT) ROW FORMAT DELIMITED FIELDS TERMINATED BY '\t' LOCATION '/home/hadoop/ncdc';
+
+>LOAD DATA LOCAL INPATH '/home/hadoop/sample.txt' OVERWRITE INTO TABLE records;
+
+>SELECT year, MAX(temperature) FROM records WHERE temperature != 9999 AND (quality = 0 OR quality = 1 OR quality = 4 OR quality = 5 OR quality = 9) GROUP BY year;
+
+
+
 # Google AppEngine
 
 	1. Installieren Sie das Google Plugin in Eclipse! Folgen Sie dazu der folgenden Anleitung: http://code.google.com/intl/de-DE/appengine/docs/java/tools/eclipse.html
