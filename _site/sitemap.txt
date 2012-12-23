@@ -6,6 +6,7 @@ http://drelu.github.com/bigdata//pages.sv
 http://drelu.github.com/bigdata//praktikum.html
 http://drelu.github.com/bigdata//sitemap.txt
 
+http://drelu.github.com/bigdata//2012/12/22/ausarbeitungen
 http://drelu.github.com/bigdata//2012/12/04/nderung-bungvorlesung-0712
 http://drelu.github.com/bigdata//2012/10/06/themenvergabe
 http://drelu.github.com/bigdata//2012/07/08/new-post
