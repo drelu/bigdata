@@ -184,4 +184,4 @@ Recommendations Item-to-Item Collaborative Filtering, IEEE Computer Society,
 
 # Acknowledgements
 
-![Amazon Web Services](http://upload.wikimedia.org/wikipedia/de/thumb/1/1d/AmazonWebservices_Logo.svg/220px-AmazonWebservices_Logo.svg.png)
+![Amazon Web Services](http://awsmedia.s3.amazonaws.com/AWS_Logo_PoweredBy_127px.png)
